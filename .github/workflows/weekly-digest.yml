@@ -52,10 +52,11 @@ jobs:
           HTTPS_PROXY: ""
           ALL_PROXY: ""
           NO_PROXY: "api.openai.com"
-          # Optional tweaks:
-          # OPENAI_MODEL: gpt-5
-          # MIN_SCORE_READ: "0.65"
-          # LOOKBACK_DAYS: "7"
+          MIN_SCORE_READ: "0.65"
+          LOOKBACK_DAYS: "7"
+          SUMMARY_MAX_CHARS: "500"
+          PREFILTER_KEEP_TOP: "200"
+          BATCH_SIZE: "50"
         run: python digest.py
 
       - name: Commit digest.md
