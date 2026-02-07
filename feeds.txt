@@ -17,6 +17,7 @@ Neuron | http://www.cell.com/neuron/inpress.rss
 Cerebral Cortex | http://cercor.oxfordjournals.org/rss/current.xml
 J Cogn Neurosci | https://ieeexplore.ieee.org/rss/TOC6720218.XML
 NeuroImage | http://www.journals.elsevier.com/neuroimage/rss
+Neuro of Consciousness | https://academic.oup.com/nc
 
 # biology journals
 Cell | https://www.cell.com/cell/current.rss
