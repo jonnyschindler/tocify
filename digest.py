@@ -4,11 +4,19 @@ from datetime import datetime, timezone, timedelta
 import feedparser
 import httpx
 from dateutil import parser as dtparser
-from openai import OpenAI, APITimeoutError, APIConnectionError, RateLimitError
+import anthropic
+from anthropic import APITimeoutError, APIConnectionError, RateLimitError
 
 
 # ---- config (env-tweakable) ----
-MODEL = os.getenv("OPENAI_MODEL", "gpt-4o")
+MODEL = os.getenv("ANTHROPIC_MODEL", "claude-haiku-4-5")
+
+# Per-model API pricing, USD per 1M tokens: (input, output)
+PRICES = {
+    "claude-haiku-4-5": (1.00, 5.00),
+    "claude-sonnet-4-6": (3.00, 15.00),
+    "claude-opus-4-8": (5.00, 25.00),
+}
 MAX_ITEMS_PER_FEED = int(os.getenv("MAX_ITEMS_PER_FEED", "50"))
 MAX_TOTAL_ITEMS = int(os.getenv("MAX_TOTAL_ITEMS", "400"))
 LOOKBACK_DAYS = int(os.getenv("LOOKBACK_DAYS", "7"))
@@ -35,7 +43,7 @@ SCHEMA = {
                     "title": {"type": "string"},
                     "link": {"type": "string"},
                     "source": {"type": "string"},
-                    "published_utc": {"type": ["string", "null"]},
+                    "published_utc": {"anyOf": [{"type": "string"}, {"type": "null"}]},
                     "score": {"type": "number"},
                     "why": {"type": "string"},
                     "tags": {"type": "array", "items": {"type": "string"}},
@@ -181,20 +189,20 @@ def keyword_prefilter(items: list[dict], keywords: list[str], keep_top: int) -> 
     return matched[:keep_top]
 
 
-# ---- openai ----
-def make_openai_client() -> OpenAI:
-    key = os.environ.get("OPENAI_API_KEY", "").strip()
-    if not key.startswith("sk-"):
-        raise RuntimeError("OPENAI_API_KEY missing/invalid (expected to start with 'sk-').")
-    http_client = httpx.Client(
+# ---- anthropic ----
+def make_anthropic_client() -> anthropic.Anthropic:
+    key = os.environ.get("ANTHROPIC_API_KEY", "").strip()
+    if not key.startswith("sk-ant-"):
+        raise RuntimeError("ANTHROPIC_API_KEY missing/invalid (expected to start with 'sk-ant-').")
+    http_client = anthropic.DefaultHttpxClient(
         timeout=httpx.Timeout(connect=30.0, read=300.0, write=30.0, pool=30.0),
         http2=False,
         trust_env=False,
         headers={"Connection": "close", "Accept-Encoding": "gzip"},
     )
-    return OpenAI(api_key=key, http_client=http_client)
+    return anthropic.Anthropic(api_key=key, http_client=http_client)
 
-def call_openai_triage(client: OpenAI, interests: dict, items: list[dict]) -> dict:
+def call_anthropic_triage(client: anthropic.Anthropic, interests: dict, items: list[dict]) -> tuple[dict, object]:
     lean_items = [{
         "id": it["id"],
         "source": it["source"],
@@ -216,26 +224,31 @@ def call_openai_triage(client: OpenAI, interests: dict, items: list[dict]) -> di
     last = None
     for attempt in range(6):
         try:
-            resp = client.responses.create(
+            resp = client.messages.create(
                 model=MODEL,
-                input=prompt,
-                text={"format": {"type": "json_schema", "name": "weekly_toc_digest", "schema": SCHEMA, "strict": True}},
+                max_tokens=16000,
+                output_config={"format": {"type": "json_schema", "schema": SCHEMA}},
+                messages=[{"role": "user", "content": prompt}],
             )
-            return json.loads(resp.output_text)
+            text = next(b.text for b in resp.content if b.type == "text")
+            return json.loads(text), resp.usage
         except (APITimeoutError, APIConnectionError, RateLimitError) as e:
             last = e
             time.sleep(min(60, 2 ** attempt))
     raise last
 
-def triage_in_batches(client: OpenAI, interests: dict, items: list[dict], batch_size: int) -> dict:
+def triage_in_batches(client: anthropic.Anthropic, interests: dict, items: list[dict], batch_size: int) -> dict:
     week_of = datetime.now(timezone.utc).date().isoformat()
     total = math.ceil(len(items) / batch_size)
     all_ranked, notes_parts = [], []
+    in_tokens, out_tokens = 0, 0
 
     for i in range(0, len(items), batch_size):
         batch = items[i:i + batch_size]
         print(f"Triage batch {i // batch_size + 1}/{total} ({len(batch)} items)")
-        res = call_openai_triage(client, interests, batch)
+        res, usage = call_anthropic_triage(client, interests, batch)
+        in_tokens += usage.input_tokens
+        out_tokens += usage.output_tokens
         if res.get("notes", "").strip():
             notes_parts.append(res["notes"].strip())
         all_ranked.extend(res.get("ranked", []))
@@ -247,14 +260,30 @@ def triage_in_batches(client: OpenAI, interests: dict, items: list[dict], batch_
             best[rid] = r
 
     ranked = sorted(best.values(), key=lambda x: x["score"], reverse=True)
-    return {"week_of": week_of, "notes": " ".join(dict.fromkeys(notes_parts))[:1000], "ranked": ranked}
+    return {
+        "week_of": week_of,
+        "notes": " ".join(dict.fromkeys(notes_parts))[:1000],
+        "ranked": ranked,
+        "usage": {"input_tokens": in_tokens, "output_tokens": out_tokens},
+    }
 
 
 # ---- render ----
+def cost_footer(result: dict) -> str:
+    usage = result.get("usage")
+    if not usage:
+        return ""
+    in_tok = usage.get("input_tokens", 0)
+    out_tok = usage.get("output_tokens", 0)
+    in_price, out_price = PRICES.get(MODEL, (0.0, 0.0))
+    cost = in_tok / 1e6 * in_price + out_tok / 1e6 * out_price
+    return f"_Model {MODEL} · {in_tok:,} in + {out_tok:,} out tokens · est. cost this run: ${cost:.2f}_"
+
 def render_digest_md(result: dict, items_by_id: dict[str, dict]) -> str:
     week_of = result["week_of"]
     notes = result.get("notes", "").strip()
     ranked = result.get("ranked", [])
+    footer = cost_footer(result)
     kept = [r for r in ranked if r["score"] >= MIN_SCORE_READ][:MAX_RETURNED]
 
     lines = [f"# Weekly ToC Digest (week of {week_of})", ""]
@@ -268,7 +297,10 @@ def render_digest_md(result: dict, items_by_id: dict[str, dict]) -> str:
         "",
     ]
     if not kept:
-        return "\n".join(lines + ["_No items met the relevance threshold this week._", ""])
+        tail = ["_No items met the relevance threshold this week._", ""]
+        if footer:
+            tail += [footer, ""]
+        return "\n".join(lines + tail)
 
     for r in kept:
         it = items_by_id.get(r["id"], {})
@@ -288,6 +320,8 @@ def render_digest_md(result: dict, items_by_id: dict[str, dict]) -> str:
         if summary:
             lines += ["<details>", "<summary>RSS summary</summary>", "", summary, "", "</details>", ""]
         lines += ["---", ""]
+    if footer:
+        lines += [footer, ""]
     return "\n".join(lines)
 
 
@@ -308,7 +342,7 @@ def main():
     print(f"Sending {len(items)} RSS items to model (post-filter)")
 
     items_by_id = {it["id"]: it for it in items}
-    client = make_openai_client()
+    client = make_anthropic_client()
 
     result = triage_in_batches(client, interests, items, batch_size=BATCH_SIZE)
     md = render_digest_md(result, items_by_id)
