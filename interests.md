@@ -19,6 +19,15 @@ If it is primarily microbiology/immunology/metabolism/genetics without neural dy
 ## keywords
 EEG
 electroencephalography
+sleep
+memory
+sleep spindles
+slow oscillations
+memory replay
+neural synchrony
+cortex
+thalamus
+hippocampus
 MEG
 magnetooencephalography
 LFP
@@ -39,9 +48,8 @@ bycycle
 neural data science
 computational neuroscience
 neural computation
-sleep and memory
 memory consolidation
 consciousness
 
 ## narrative
-I'm a PhD student broadly researching signatures of sleep-related memory consolidation, consciousness, intra-region/inter-region/inter-brain oscillatory coherence and coupling, and cognition in human electrophysiology data, namely scalp/intracranial eeg as well as acute neuropixels in humans. I aim to learn a broad range of theories, approaches, findings, and methods to help me construct my thesis resesarch project.
+I'm a PhD student in the lab of Dr. Bradley Voytek broadly researching signatures of sleep-related memory replay and consolidation, consciousness, intra-region/inter-region/inter-brain oscillatory and aperiodic coherence and coupling, and cognition in human electrophysiology data, namely scalp/intracranial eeg as well as acute neuropixels in humans. I'm interested in translational applications of electrophysiological mechanisms. I aim to learn a broad range of theories, approaches, findings, and methods to help me construct my thesis resesarch project.
