@@ -102,7 +102,7 @@ def sha1(s: str) -> str:
     return hashlib.sha1(s.encode("utf-8")).hexdigest()
 
 def section(md: str, heading: str) -> str:
-    m = re.search(rf"(?im)^\s*#{1,6}\s+{re.escape(heading)}\s*$", md)
+    m = re.search(rf"(?im)^\s*#{{1,6}}\s+{re.escape(heading)}\s*$", md)
     if not m:
         return ""
     rest = md[m.end():]
