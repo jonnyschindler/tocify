@@ -19,6 +19,10 @@ J Cogn Neurosci | https://ieeexplore.ieee.org/rss/TOC6720218.XML
 NeuroImage | http://www.journals.elsevier.com/neuroimage/rss
 Neuro of Consciousness | https://academic.oup.com/nc
 
+# sleep journals
+Journal of Sleep Research | https://onlinelibrary.wiley.com/feed/13652869/most-recent
+Nature & Science of Sleep | https://www.tandfonline.com/feed/rss/dnss20
+
 # biology journals
 Cell | https://www.cell.com/cell/current.rss
 eLife | https://elifesciences.org/rss/subject/neuroscience.xml
