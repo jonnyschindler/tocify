@@ -1,384 +1,639 @@
-# Weekly ToC Digest (week of 2026-07-13)
+# Weekly ToC Digest (week of 2026-07-20)
 
-This week's RSS contained primarily non-electrophysiology work (molecular biology, transcriptomics, fMRI, behavioral studies without neural recordings). Only a handful of items showed relevance to scalp/intracranial electrophysiology, neural oscillations, memory consolidation, or computational methods for physiological signals. Two papers on speech comprehension (EEG-fNIRS), one on fear extinction (7T fMRI), one on thalamo-cortical circuits in epilepsy (resting-state fMRI/diffusion MRI), and limited high-value content for your specific interests in electrophysiological signatures of memory replay and aperiodic dynamics. This week's RSS items include mostly off-topic clinical, molecular biology, and general health content. Only 3 items directly relevant to the user's core interests in human electrophysiology, neural oscillations, and memory/sleep. Several borderline items on psychiatric/fMRI work with minimal neural signal processing or computational methods. This week's RSS feed contai
+This week's RSS items are dominated by Lancet Neurology clinical and translational papers with limited neural data/computational focus, plus some bioRxiv preprints. Few items match core interests in electrophysiology, sleep, memory consolidation, oscillations, or spectral methods. Highest-scoring papers involve neural dynamics, EEG, computational approaches, or cross-species electrophysiology. This week contains 47 items with moderate relevance to the user's research focus on sleep-related memory consolidation, neural oscillations, and computational neuroscience. Several papers touch on neural oscillations and synchrony (hippocampal-prefrontal theta, serotonergic modulation), memory mechanisms, and methods papers. However, many items are primarily clinical, molecular biology, or fMRI-based without electrophysiology. Highly relevant papers are sparse but include work on neural synchrony, memory consolidation, and neurophysiological state-dependent phenomena. Low relevance across this we
 
-**Included:** 22 (score ≥ 0.35)  
-**Scored:** 35 total items
+**Included:** 37 (score ≥ 0.35)  
+**Scored:** 113 total items
 
 ---
 
-## [Cortical Activity During Sustained Isometric Ankle Contractions Following Chronic Sleep Restriction: A High-Density EEG Study](https://www.biorxiv.org/content/10.64898/2026.07.07.737078v1?rss=1)
-*bioRxiv*  
+## [Gamma and beta power and the 1/f slope vary across a spectrum of depression severity](https://www.nature.com/articles/s41398-026-04268-z)
+*Trans Psychiatry*  
 Score: **0.82**  
-Published: 2026-07-07T00:00:00+00:00
-Tags: EEG, sleep, oscillations, cortex, methods
+Published: 2026-07-17T00:00:00+00:00
+Tags: aperiodic, 1/f slope, oscillations, beta, gamma, spectral analysis, neural dynamics
 
-Directly uses high-density EEG to examine task-related oscillatory activity during sleep deprivation, combining sleep neuroscience with electrophysiological methods and oscillatory analysis across sensorimotor networks.
+Directly examines aperiodic 1/f slope and oscillatory power (gamma, beta), core spectral parameterization methods and neural dynamics markers relevant to your research on oscillatory and aperiodic signatures in neural states.
 
 <details>
 <summary>RSS summary</summary>
 
-Background: Chronic sleep restriction (CSR) impairs cognitive function, but its effects on the cortical dynamics underlying active motor performance remain poorly understood. High-density EEG provides a means to examine task-related oscillatory activity across sensorimotor and attentional networks during movement. Methods: Fifteen healthy males completed a randomized crossover study involving a CSR condition (five hours sleep per night for four nights) and a control condition (normal sleep). Bef…
+<p>Translational Psychiatry, Published online: 17 July 2026; <a href="https://www.nature.com/articles/s41398-026-04268-z">doi:10.1038/s41398-026-04268-z</a></p>Gamma and beta power and the 1/f slope vary across a spectrum of depression severity
 
 </details>
 
 ---
 
-## [GABA neurons in the sublaterodorsal tegmental nucleus suppress wakefulness in healthy and narcoleptic mice](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003303)
-*PLOS Biol*  
+## [Adolescent exposure to the psychedelic 25C-NBOMe in rats induces lasting competitive avoidance through disrupted hippocampal–prefrontal synchrony](https://www.nature.com/articles/s41593-026-02369-y)
+*Nature Neuroscience*  
+Score: **0.75**  
+Published: 2026-07-20T00:00:00+00:00
+Tags: neural oscillations, hippocampus, prefrontal cortex, theta, memory, synchrony, electrophysiology
+
+Directly examines hippocampal-prefrontal theta synchrony as a neural mechanism, combining electrophysiology with memory-related behaviors. Highly relevant to oscillatory coupling and cognitive consequences of altered neural dynamics.
+
+<details>
+<summary>RSS summary</summary>
+
+<p>Nature Neuroscience, Published online: 20 July 2026; <a href="https://www.nature.com/articles/s41593-026-02369-y">doi:10.1038/s41593-026-02369-y</a></p>Yu, Zhang et al. show that repeated exposure to the psychedelic drug 25C-NBOMe in adolescent rats, but not in adult rats, reduces willingness to engaged in food resource competition in adulthood, due to reduced theta synchrony between ventral hippocampus and orbitofrontal cortex.
+
+</details>
+
+---
+
+## [From Hodgkin-Huxley to Pretrained Neural Inference AI](https://www.biorxiv.org/content/10.64898/2026.07.13.738120v1?rss=1)
+*bioRxiv*  
 Score: **0.72**  
-Published: 2026-07-08T14:00:00+00:00
-Tags: sleep, neural circuits, GABA, sleep-wake regulation, REM sleep
+Published: 2026-07-20T00:00:00+00:00
+Tags: electrophysiology, neural computation, methods, deep learning, neuropixels
 
-Directly addresses sleep-wake circuit mechanisms and GABAergic regulation of sleep/wakefulness, combining neural circuit recording with sleep physiology relevant to memory consolidation and sleep oscillations.
+Bridges biophysical simulations with neural inference using deep learning to interpret population electrophysiology from high-density probes; directly relevant to computational methods for decoding neural signals and understanding forward models of brain activity.
 
 <details>
 <summary>RSS summary</summary>
 
-<p>by HanHee Lee, Jimmy J. Fraigne, John H. Peever</p> The sleep-wake cycle is generated by competing neural circuits that control the oscillation between wakefulness, rapid eye movement (REM) sleep, and non-REM (NREM) sleep. While the sublaterodorsal tegmental nucleus (SLD) is recognized for its role in REM sleep generation, the functional contribution of its GABAergic neurons (SLD<sup>GABA</sup>) to sleep-wake regulation remains poorly understood. Here, we found that SLD<sup>GABA</sup> neurons…
+High-density probes record from thousands of neurons simultaneously, yet resolving single-neuron identity remains an ill-posed inverse problem. While detailed simulations precisely characterize the biophysical forward process, their utility for interpreting brain signal remains unclear. Here we show that biophysical simulations of population neuronal electrical signals serve as an effective bridge between theory and experiment. By pre-training artificial neural networks exclusively on large-scal…
 
 </details>
 
 ---
 
-## [Prior knowledge reveals two computational regimes for syntactic processing in the human brain](https://www.biorxiv.org/content/10.64898/2026.07.11.737945v1?rss=1)
+## [Competing speech streams are simultaneously represented in the human cortex during attention switching](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003876)
+*PLOS Biol*  
+Score: **0.71**  
+Published: 2026-07-16T14:00:00+00:00
+Tags: EEG, attention, cortex, neural synchrony, cognition, human electrophysiology
+
+Uses EEG to examine cortical representation dynamics and attention switching mechanisms in real-time, relevant to understanding neural synchrony and oscillatory mechanisms underlying cognition and attention.
+
+<details>
+<summary>RSS summary</summary>
+
+<p>by Sara Carta, Emina Aličković, Johannes Zaar, Alejandro López Valdés, Giovanni M. Di Liberto</p> Successful speech communication in multi-talker scenarios requires a skillful combination of sustained attention and rapid attention switching. While the neurophysiology literature offers detailed insights into the neural underpinnings of sustained attention, there remains considerable uncertainty on how attention switching takes place. In this study, using EEG recordings from normal-hearing adul…
+
+</details>
+
+---
+
+## [Serotonergic modulation of motor subspace dynamics drives a sleep-independent quiescent state](https://elifesciences.org/articles/110370)
+*eLife*  
+Score: **0.70**  
+Published: 2026-07-20T00:00:00+00:00
+Tags: sleep, state-dependent dynamics, neural computation, serotonin, consciousness, neural subspaces
+
+Investigates state-dependent neural dynamics in sleep-like quiescence, examining how neuromodulation drives changes in motor subspace. Relevant to understanding state-dependent dynamics and consciousness-related neural mechanisms.
+
+<details>
+<summary>RSS summary</summary>
+
+The dorsal raphe nucleus (DRN) serotonergic (5-HT) system has been implicated in regulating sleep and motor control; however, its specific role remains controversial. In this study, we found that optogenetic activation of DRN 5-HT neurons in larval zebrafish induced a quiescent state and a reduced response to acoustic stimuli. Unlike sleep, the induced quiescent state was not accompanied by a loss of postural control, and nighttime activation of DRN 5-HT neurons led to a subsequent sleep rebound…
+
+</details>
+
+---
+
+## [Pre-anaesthetic anxiety phenotype stratifies cortical excitability, learned navigation, and post-anaesthetic sleep in sevoflurane-exposed mice](https://www.biorxiv.org/content/10.64898/2026.07.13.738262v1?rss=1)
 *bioRxiv*  
 Score: **0.68**  
-Published: 2026-07-11T00:00:00+00:00
-Tags: MEG, neural oscillations, computational neuroscience, methods
+Published: 2026-07-20T00:00:00+00:00
+Tags: EEG, sleep, cortex, consciousness, anesthesia
 
-Uses MEG combined with corpus-derived computational modeling of linguistic features to characterize neural representation and prior knowledge effects, exemplifying neural data science and oscillatory analysis methods.
+Uses live-EEG titration in mice to examine sleep architecture and cortical dynamics following anesthesia with trait anxiety phenotyping; combines sleep physiology with EEG analysis relevant to understanding consciousness and sleep mechanisms.
 
 <details>
 <summary>RSS summary</summary>
 
-The human brain rapidly transforms continuous speech into structured, meaningful linguistic representations, yet how prior knowledge constrains this process remains unclear. To characterize this influence, we combined MEG recordings acquired during audiobook listening with corpus-derived transition probabilities over syntactic features defined within both phrase-structure and dependency-based grammars. Across grammatical formalisms, prior knowledge selectively sharpened the neural representation…
+Trait anxiety is a common pre-surgical phenotype and has been linked to adverse postoperative cognitive outcome, but whether it modulates the response to general anaesthesia has not been tested in a controlled design that isolates the anaesthetic from surgical injury. We classified 42 male C57BL/6N mice as low-anxiety (LA, n = 24) or high-anxiety (HA, n = 18) by unsupervised k-medoids clustering on cued fear-retrieval freezing, and exposed all animals to sevoflurane under live-EEG titration with…
 
 </details>
 
 ---
 
-## [Encoding and Retrieval in Parallel: ERP Correlates of Continuous Recognition Memory for Natural Scenes](https://www.biorxiv.org/content/10.64898/2026.07.07.736108v1?rss=1)
-*bioRxiv*  
+## [A neural network model of free recall learns multiple memory strategies](https://www.nature.com/articles/s42256-026-01274-0)
+*Nature Machine Intell*  
+Score: **0.68**  
+Published: 2026-07-20T00:00:00+00:00
+Tags: memory, computational neuroscience, neural networks, memory consolidation, memory replay, cognition
+
+Computational neuroscience approach to memory consolidation and recall using recurrent neural networks, demonstrating memory strategies resembling human cognitive mechanisms. Relevant to memory replay and consolidation theory.
+
+<details>
+<summary>RSS summary</summary>
+
+<p>Nature Machine Intelligence, Published online: 20 July 2026; <a href="https://www.nature.com/articles/s42256-026-01274-0">doi:10.1038/s42256-026-01274-0</a></p>Li et al. show that recurrent neural networks optimized for free recall discover diverse, human-like memory strategies beyond classical temporal context models, with top models using an index-based mechanism resembling the memory palace technique.
+
+</details>
+
+---
+
+## [Parallel independent voltage computing along dendrites of CA3 pyramidal neurons](https://www.science.org/doi/abs/10.1126/science.aeh9302?af=R)
+*Science*  
+Score: **0.68**  
+Published: 2026-07-16T06:00:06+00:00
+Tags: hippocampus, dendrites, local circuits, computation, electrophysiology, memory
+
+Characterizes hippocampal (CA3) dendritic computation and voltage dynamics at cellular scale, relevant to understanding local circuit mechanisms underlying memory processes and hippocampal function.
+
+<details>
+<summary>RSS summary</summary>
+
+Science, Volume 393, Issue 6808, Page 306-312, July 2026. <br />
+
+</details>
+
+---
+
+## [The emerging field of cognitive brain–computer interfaces](https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(26)00139-7?rss=yes)
+*Trends Cogn Sci*  
 Score: **0.65**  
-Published: 2026-07-07T00:00:00+00:00
-Tags: EEG, memory, encoding, retrieval
+Published: 2026-07-17T00:00:00+00:00
+Tags: BCIs, neural decoding, cognition, memory, attention, computational neuroscience, human neural data
 
-Investigates electrophysiological (ERP) correlates of memory encoding and retrieval simultaneously using a continuous recognition task, directly relevant to memory mechanisms in scalp recordings.
+Reviews neural decoding of cognitive states (attention, memory) from distributed neural signals, directly relevant to computational neuroscience methods for cognition and translational BCI applications of electrophysiology.
 
 <details>
 <summary>RSS summary</summary>
 
-Human long-term memory for visual scenes is remarkably robust, yet the neural mechanisms supporting memory encoding and retrieval remain poorly understood when both processes must operate at the same time. For instance, this might happen when we encounter a familiar place while simultaneously forming new memories of this encounter. We investigated electrophysiological correlates of visual recognition memory using a continuous recognition task (CRT), in which participants judged a continuous stre…
+Brain–computer interfaces (BCIs) have achieved transformative success in restoring movement and communication. However, extending these approaches to decoding or recovery of cognitive function, such as attention or memory, poses fundamentally new challenges. Cognitive BCIs will need to contend with distributed and dynamic neural processes that differ sharply from the more localized, stable representations underlying motor and language control, imposing new technical and conceptual demands. Conve…
 
 </details>
 
 ---
 
-## [Spatially structured heterogeneity shapes large-scale cortical dynamics in a model of the human cortex](https://www.pnas.org/doi/abs/10.1073/pnas.2532072123?af=R)
-*PNAS*  
-Score: **0.65**  
-Published: 2026-07-08T07:00:00+00:00
-Tags: cortical dynamics, computational neuroscience, neural heterogeneity, oscillations
+## [The primate claustrum as a hub for precision weighting of prediction errors across the cortical hierarchy](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003906)
+*PLOS Biol*  
+Score: **0.63**  
+Published: 2026-07-16T14:00:00+00:00
+Tags: cortex, neural circuits, predictive coding, inter-region coupling, cross-species, functional connectivity
 
-Models large-scale cortical dynamics incorporating spatial heterogeneity, relevant to understanding neural oscillations and aperiodic activity patterns across brain regions.
+Investigates cortico-subcortical connectivity and functional roles in predictive coding using cross-species primate data; relevant to understanding inter-region neural coupling and hierarchical cortical organization.
 
 <details>
 <summary>RSS summary</summary>
 
-Proceedings of the National Academy of Sciences, Volume 123, Issue 28, July 2026. <br />SignificanceBiological heterogeneity is a hallmark of brain organization, spanning molecular to anatomical scales, yet its impact on large-scale dynamics has remained largely unexplored. Here, we integrate spatially structured regional heterogeneity ...
+<p>by Yujie Hou, Alessandra Pizzuti, Kenneth Knoblauch, Julien Vezoli, Rainer Goebel, Martin Vinck, Henry Kennedy</p> Understanding how signals are exchanged across the cerebral cortex is a central challenge for theories of perception and cognition. Although crucial gaps exist in empirical knowledge, evidence is emerging in macaques for complementary functional roles of cortico-cortical and cortico-claustral-cortical loops in predictive coding and perceptual inference. This Essay puts forward a …
 
 </details>
 
 ---
 
-## [Prior Context Scaffolds Sentential Semantic Integration during Noisy Speech Comprehension](https://www.biorxiv.org/content/10.64898/2026.07.11.737996v1?rss=1)
+## [Exploring the human brain, from molecules to networks, using siibra](https://www.nature.com/articles/s41592-026-03160-4)
+*Nature Methods*  
+Score: **0.62**  
+Published: 2026-07-20T00:00:00+00:00
+Tags: methods, brain atlas, data integration, neural data science, software
+
+Software tool for brain atlas integration and multimodal data analysis, enabling analysis of diverse electrophysiological and imaging data across brain regions. Useful methods resource for neural data science.
+
+<details>
+<summary>RSS summary</summary>
+
+<p>Nature Methods, Published online: 20 July 2026; <a href="https://www.nature.com/articles/s41592-026-03160-4">doi:10.1038/s41592-026-03160-4</a></p>Original data describing the complexity of the human brain are challenging to work with, as they can be large, heterogeneous and deposited in different repositories. We present siibra, an open software suite that links reference brain atlases with diverse, distributed datasets and makes both jointly explorable, analyzable and reusable.
+
+</details>
+
+---
+
+## [Siibra: a software tool suite for realizing a Multilevel Human Brain Atlas from complex data resources](https://www.nature.com/articles/s41592-026-03159-x)
+*Nature Methods*  
+Score: **0.62**  
+Published: 2026-07-20T00:00:00+00:00
+Tags: methods, neural data science, brain atlas, multimodal data, computational neuroscience
+
+Methods paper describing software for integrating heterogeneous neuroimaging and electrophysiology data at multiple scales. Relevant for computational approaches to multi-modal neural data analysis.
+
+<details>
+<summary>RSS summary</summary>
+
+<p>Nature Methods, Published online: 20 July 2026; <a href="https://www.nature.com/articles/s41592-026-03159-x">doi:10.1038/s41592-026-03159-x</a></p>Siibra is a software suite for working with diverse human brain atlases. It links data acquired with different modalities and at different resolution, thereby creating a Multilevel Human Brain Atlas.
+
+</details>
+
+---
+
+## [Emergent topological structure in spontaneous brain-organoid activity](https://www.biorxiv.org/content/10.64898/2026.07.17.739228v1?rss=1)
 *bioRxiv*  
 Score: **0.62**  
-Published: 2026-07-13T00:00:00+00:00
-Tags: EEG, speech, encoding models, neural dynamics
+Published: 2026-07-17T00:00:00+00:00
+Tags: MEA, electrophysiology, computational neuroscience, neural dynamics, methods
 
-Uses simultaneous EEG-fNIRS with hierarchical multivariate encoding models to track speech processing from acoustics to semantics, directly employing electrophysiology and computational modeling relevant to your neural data science interests.
+Combines microelectrode-array recordings with computational methods (persistent homology) to characterize neural population structure, directly relevant to understanding neural dynamics and state-space organization in electrophysiology.
 
 <details>
 <summary>RSS summary</summary>
 
-Understanding speech in noise is a central challenge of everyday communication, yet listeners often succeed by using prior context. How the brain uses such context remains debated: it may refine predictions about upcoming words, or it may provide a higher-level framework that helps degraded speech cohere into meaning. Here we combined simultaneous EEG-fNIRS recording with hierarchical multivariate encoding models to track how prior context shapes speech processing from acoustics to words and sen…
+Neural activity is widely held to organize on low-dimensional structure embedded in a high-dimensional state space. Persistent homology reads such structure directly from the pattern of pairwise correlations, without assuming in advance which variables are relevant. We apply persistent homology to microelectrode-array (MEA) recordings of spontaneous activity from human (Lancaster) and mouse (Pac{s}ca) cortical organoids, spanning $26$--$234$ simultaneously sorted units, and ask whether topologic…
 
 </details>
 
 ---
 
-## [Simple Geometric Recentering Rivals Deep Sequence Models for Cross-Session EEG Motor-Imagery Decoding](https://www.biorxiv.org/content/10.64898/2026.07.07.736991v1?rss=1)
+## [Exploring Neural Signatures of Self-Initiated Saccadic and Blink Events in the Real World](https://www.biorxiv.org/content/10.64898/2026.07.13.737665v1?rss=1)
 *bioRxiv*  
-Score: **0.62**  
-Published: 2026-07-07T00:00:00+00:00
-Tags: EEG, methods, neural data science, decoding
+Score: **0.61**  
+Published: 2026-07-20T00:00:00+00:00
+Tags: EEG, methods, consciousness, neural dynamics
 
-Benchmarks decoding methods for EEG motor-imagery across multiple datasets, providing methodological insights for EEG signal processing and dimensionality reduction relevant to neural data science.
+Mobile EEG and eye-tracking in freely moving humans studying neural signatures of self-generated interruptions; demonstrates real-world scalp EEG methods and event-related dynamics relevant to consciousness and perception.
 
 <details>
 <summary>RSS summary</summary>
 
-A large and growing body of work applies increasingly complex deep architectures to EEG motor-imagery (MI) decoding, yet rarely tests whether that complexity is justified against a strong, simple geometric baseline under identical conditions. We report a controlled benchmark across eight public MI datasets (3-128 channels, 2-3 classes, single- and multi-session) that holds the feature representation fixed and varies only the decoder. The central method - a compact tangent-space pipeline on the S…
+During natural vision, the human brain constantly has to account for self-produced interruptions of visual input, through blinks and saccades, to maintain a stable perception of the world. It remains unclear whether these event-related neural responses are treated similarly due to a common underlying mechanism. To systematically investigate this functional connection, we recorded synchronized mobile EEG and eye-tracking data from freely moving participants as they (visually) explored a city cent…
 
 </details>
 
 ---
 
-## [Secure LSL: A Unified Encryption Architecture for the Lab Streaming Layer](https://www.biorxiv.org/content/10.64898/2026.07.07.737068v1?rss=1)
+## [An Open Dataset of Human Electroencephalographic and Behavioural Responses to Food Images](https://www.nature.com/articles/s41597-026-07920-x)
+*Scientific Data*  
+Score: **0.60**  
+Published: 2026-07-20T00:00:00+00:00
+Tags: EEG, methods, dataset, human electrophysiology, behavioral neuroscience
+
+Open EEG dataset with behavioral responses, providing human electrophysiological data resource. Relevant as example of scalp EEG methods and data sharing for cognitive/behavioral studies.
+
+<details>
+<summary>RSS summary</summary>
+
+<p>Scientific Data, Published online: 20 July 2026; <a href="https://www.nature.com/articles/s41597-026-07920-x">doi:10.1038/s41597-026-07920-x</a></p>An Open Dataset of Human Electroencephalographic and Behavioural Responses to Food Images
+
+</details>
+
+---
+
+## [Theory Note: Emergence of a Proportional-Derivative Control Law from Two Coupled Oscillating Brain Circuits Near Synchrony](https://www.biorxiv.org/content/10.64898/2026.07.13.738181v1?rss=1)
 *bioRxiv*  
+Score: **0.59**  
+Published: 2026-07-20T00:00:00+00:00
+Tags: neural oscillations, synchrony, theory, oscillatory coupling
+
+Theoretical framework showing how coupled neural oscillators implement control laws through phase synchronization; relevant to understanding oscillatory dynamics and inter-region coupling mechanisms.
+
+<details>
+<summary>RSS summary</summary>
+
+Oscillations and oscillatory synchronization are pervasive in motor circuits, where their role in rhythm generation and entrainment is well established but their role in feedback control of movement remains unclear. Here I show analytically that two oscillators of any type, coupled through a delayed interaction that is an odd function of their phase difference, necessarily implement a proportional-derivative (PD) control law in the near-synchrony limit. The proportional gain follows from the slo…
+
+</details>
+
+---
+
+## [Neural categorization of visual words of alphabetic and non-alphabetic languages](https://elifesciences.org/articles/110320)
+*eLife*  
 Score: **0.58**  
-Published: 2026-07-07T00:00:00+00:00
-Tags: EEG, methods, infrastructure, biosignal
+Published: 2026-07-20T00:00:00+00:00
+Tags: EEG, MEG, neural oscillations, cognition, language
 
-Presents infrastructure for secure multimodal biosignal recording widely used in neuroscience, including EEG and physiological signals; relevant for lab methodology and data handling in electrophysiology.
+Uses EEG and MEG to study neural categorization and language processing, combining multiple electrophysiological modalities. Relevant to understanding oscillatory patterns in cognitive processing.
 
 <details>
 <summary>RSS summary</summary>
 
-Objective: The Lab Streaming Layer (LSL) protocol, widely adopted for synchronized multimodal biosignal recording in neuroscience research, transmits all data in plaintext, exposing sensitive neural and physiological recordings to interception and tampering and creating regulatory liability for clinical and commercial deployments across most major international jurisdictions. We present Secure LSL, the unified encryption architecture for the protocol: a novel security layer that authenticates de…
+Languages provide social-category markers that tag people as one or another social group. How does the brain sort words into different language categories as a basis of the social-categorization function of language? The current work addressed this issue by testing neural categorization of visual words of different writing systems in nine studies using electroencephalography, magnetoencephalography, and a repetition suppression paradigm. This work showed that a neural network, including the ante…
 
 </details>
 
 ---
 
-## [FUNCTIONAL FRAGMENTATION AND STRUCTURAL DRIVERS OF THALAMO-CORTICAL CIRCUITS IN TEMPORAL LOBE EPILEPSY](https://www.biorxiv.org/content/10.64898/2026.07.07.737072v1?rss=1)
+## [Spectral organization of individualized connectome harmonics across brain structure, function and cognition](https://www.biorxiv.org/content/10.64898/2026.07.19.739422v1?rss=1)
 *bioRxiv*  
 Score: **0.55**  
-Published: 2026-07-11T00:00:00+00:00
-Tags: thalamus, hippocampus, cortex, functional connectivity, epilepsy
+Published: 2026-07-20T00:00:00+00:00
+Tags: spectral analysis, connectome, graph signal processing, structure-function, neural dynamics
 
-Studies thalamic-hippocampal-cortical functional connectivity with multimodal data in 250+ TLE patients, examining circuit-level organization relevant to your interests in thalamus, hippocampus, and inter-region coherence.
+Examines spectral properties of connectome harmonics and structure-function relationships using graph signal processing. Relevant to understanding spectral organization of neural dynamics, though primarily fMRI-based.
 
 <details>
 <summary>RSS summary</summary>
 
-Objective. In temporal lobe epilepsy (TLE), the thalamus acts as a nexus in a pathophysiological network that implicates mesiotemporal, subcortical, and neocortical regions. Studying a large multimodal and multicentre dataset, we profiled thalamic, hippocampal, and neocortical functional connectivity (FC), assessed structural mediators, and examined clinical associations. Methods. We studied resting-state FC alongside structural and diffusion MRI data in 250 unilateral TLE patients and 259 healt…
+Connectome harmonics provide a spectral representation of structural brain connectivity that has emerged as a powerful framework for studying structure-function relationships. However, two fundamental questions remain unresolved: how should inter-individual variability in structural connectivity be incorporated into graph signal processing analyses, and at which spectral scale should connectome harmonics be interpreted? Here, using structural and functional MRI data from 875 participants, we sho…
 
 </details>
 
 ---
 
-## [Identity-specific reward expectations in orbitofrontal cortex guide goal-directed choices](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003829)
+## [Retrosplenial cortical reorganization during late adolescence introduces instability of contextual memory circuits](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003908)
 *PLOS Biol*  
 Score: **0.55**  
-Published: 2026-07-09T14:00:00+00:00
-Tags: neural circuits, cortex, memory, decision-making, reward
+Published: 2026-07-17T14:00:00+00:00
+Tags: memory, cortex, hippocampus, development, circuits
 
-Studies neural circuits (orbitofrontal cortex) and decision-making with explicit neural recording implied, touching on memory and value representation relevant to computational neuroscience interests, though methods unclear from title.
+Studies memory circuit maturation in cortex and hippocampus during development; directly relevant to memory consolidation and neural circuit organization, though electrophysiology methods not detailed in summary.
 
 <details>
 <summary>RSS summary</summary>
 
-<p>by Phillip P. Witkowski, Noelle Henein, Nicole Moussa, Geoffrey Schoenbaum, Thorsten Kahnt</p> Real-life decisions are typically directed toward specific types of rewards (e.g., a slice of pizza or a bowl of pasta), but reward identity is often neglected in neuroeconomic theories of decision-making. Previous research has shown that the lateral orbitofrontal cortex (lOFC) represents the specific rewards predicted by environmental cues. However, whether and how these expectations influence deci…
+<p>by Hui Zhang, Zorica Petrovic, Elizabeth M. Wood, Ana Cicvaric, Maayan Krispil-Alon, Vladimir Jovasevic, Kendra Parker, Thomas E. Bassett, Anna Carboncino, Anita L. Guedea, Pengfei Yi, Gal Richter-Levin, J. Tiago Gonçalves, Jelena Radulovic</p> Hippocampal and cortical memory circuits, which enable the capacity to remember details from one’s past, are believed to reach maturity by early adolescence. Here, we demonstrate that the transition from early to late adolescence involves extensive reo…
 
 </details>
 
 ---
 
-## [Primate visual cortex spontaneously computes the beauty of objects](https://www.biorxiv.org/content/10.64898/2026.07.07.736498v1?rss=1)
+## [Safety of Subdural Direct Current Stimulation: A Histological Study in the Ovine Brain](https://www.biorxiv.org/content/10.64898/2026.07.13.737768v1?rss=1)
+*bioRxiv*  
+Score: **0.54**  
+Published: 2026-07-20T00:00:00+00:00
+Tags: methods, intracranial, electrophysiology, translational
+
+Characterizes safety boundaries for intracranial DC stimulation in a gyrencephalic animal model; relevant to invasive electrophysiology methods and translational applications of neuromodulation.
+
+<details>
+<summary>RSS summary</summary>
+
+Background: Direct current (DC) stimulation can modulate neuronal activity in ways that differ from pulsatile stimulation, but its intracranial use has been limited by concerns about tissue injury at the electrode/tissue interface. Quantitative safety limits for DC delivered through metal electrodes directly to the brain remain poorly defined. Objective: To estimate histological safety boundaries for DC stimulation delivered through metal electrodes in a large-brain gyrencephalic animal model. M…
+
+</details>
+
+---
+
+## [Quantifying the information about uncertainty in neural population codes](https://www.biorxiv.org/content/10.64898/2026.07.13.738167v1?rss=1)
+*bioRxiv*  
+Score: **0.52**  
+Published: 2026-07-20T00:00:00+00:00
+Tags: neural data science, computational neuroscience, population coding, information theory
+
+Develops information-theoretic approaches to quantify population coding beyond point estimates using Fisher information and mutual information; relevant to neural data science and computational analysis of electrophysiology.
+
+<details>
+<summary>RSS summary</summary>
+
+The activity of neural populations typically encodes more information about sensory or motor variables than can be captured by point estimates of the variables. We present and compare two approaches to quantifying this additional or ancillary information and its relationship to uncertainty: the mutual information between activity and estimation error, and the Fisher information loss, which can be interpreted in terms of curvature in information geometry. We show that deviations from Gaussianity …
+
+</details>
+
+---
+
+## [Psychedelic drug action at dendrites is gated by behavioral state and serotonin receptors](https://www.biorxiv.org/content/10.64898/2026.07.16.738983v1?rss=1)
+*bioRxiv*  
+Score: **0.50**  
+Published: 2026-07-20T00:00:00+00:00
+Tags: neural dynamics, state-dependent, consciousness, calcium imaging, computational neuroscience
+
+Investigates state-dependent neural dynamics and dendritic calcium dynamics during different behavioral states. Relevant to understanding how brain state modulates neural circuit dynamics.
+
+<details>
+<summary>RSS summary</summary>
+
+How psychedelics act on cortical dendrites to produce long-lasting structural plasticity remains poorly understood. Here, we characterize the effects of psilocybin on dendritic calcium dynamics in pyramidal tract neurons of the mouse medial frontal cortex. Psilocybin transiently increases calcium event rates in apical dendritic tufts over a time course that parallels the drug's pharmacokinetics in the brain. This acute effect is brain state-dependent, occurring selectively during quiet wakefulne…
+
+</details>
+
+---
+
+## [Divisive normalization in mouse V1 is unchanged by increased thalamocortical short-term depression](https://www.biorxiv.org/content/10.64898/2026.07.13.738133v1?rss=1)
 *bioRxiv*  
 Score: **0.48**  
-Published: 2026-07-07T00:00:00+00:00
-Tags: EEG, cortex, fMRI, methods
+Published: 2026-07-20T00:00:00+00:00
+Tags: electrophysiology, thalamus, cortex, neural circuits
 
-Uses combined EEG-fMRI to examine early visual cortex processing, providing cross-species/multi-modal insights, though focus is primarily on sensory coding rather than oscillations or sleep.
+Examines thalamocortical circuit mechanisms using electrophysiology in mouse visual cortex; relevant to cross-species neural circuit understanding and thalamic-cortical dynamics.
 
 <details>
 <summary>RSS summary</summary>
 
-During everyday vision, beauty is a spontaneous experience. Perceived beauty varies substantially across object categories: We find puppies more beautiful than moths and roses more beautiful than potatoes. Here, we provide evidence that early processing in human and non-human primate visual cortex already reflects perceived beauty, even without deliberate judgments of beauty. First, in a combined EEG-fMRI analysis, we show that beauty ratings for hundreds of object categories from the THINGS dat…
+Divisive normalization describes how neuronal responses are scaled by the activity of a broader pool of inputs and accounts for several nonlinear response properties in primary visual cortex (V1). It accurately describes contrast gain control, as well as the response to overlapping gratings. Nevertheless, how this computation is performed by the brain is unclear. One mechanism suggested to underlie divisive normalization in V1 is short-term depression (STD) at thalamocortical synapses. Here, we …
 
 </details>
 
 ---
 
-## [The combinatorial innexin code of heterochannel electrical synapses governs synaptic function and is maintained by distinct cellular mechanisms](https://www.pnas.org/doi/abs/10.1073/pnas.2602614123?af=R)
-*PNAS*  
+## [Distinct Orbitofrontal Feedback Signals Shape Sensory Behavioral Strategies during Flexible Learning](https://www.biorxiv.org/content/10.64898/2026.07.15.737076v1?rss=1)
+*bioRxiv*  
 Score: **0.48**  
-Published: 2026-07-09T07:00:00+00:00
-Tags: electrical synapses, neural synchrony, synaptic plasticity
+Published: 2026-07-20T00:00:00+00:00
+Tags: computational neuroscience, neural recording, decision-making, learning, cognition
 
-Focuses on electrical synapses and synaptic function, relevant to neural synchrony and communication mechanisms underlying oscillatory dynamics, though likely molecular rather than electrophysiological.
+Uses computational modeling and neural recordings to study decision-making strategies. Relevant to computational approaches in neuroscience, though electrophysiological details not specified.
 
 <details>
 <summary>RSS summary</summary>
 
-Proceedings of the National Academy of Sciences, Volume 123, Issue 28, July 2026. <br />SignificanceThis study identifies previously uncharacterized organizational principles of electrical synapses, describes their functional significance, and elucidates mechanisms underlying their regulation and plasticity. Contrary to the prevailing ...
+Animals adapt their behavior by integrating sensory evidence with prior experience and contextual information. Understanding how animals employ specific behavioral strategies to integrate these variables and how neural mechanisms support such strategies remains unclear. We trained mice on a tactile reversal learning task and used a trial-by-trial computational model to infer latent decision strategies. Early in learning, mice relied on action-based (choice-driven) policies but progressively tran…
 
 </details>
 
 ---
 
-## [Dopamine-driven mitochondrial reverse electron transport in immune cells mediates gut–brain ROS signaling during sleep deprivation](https://www.pnas.org/doi/abs/10.1073/pnas.2530907123?af=R)
-*PNAS*  
+## [Manipulating speech perception with amplitude-modulated kilohertz magnetic perturbation (AM-kTMP)](https://www.biorxiv.org/content/10.64898/2026.07.13.739132v1?rss=1)
+*bioRxiv*  
 Score: **0.48**  
-Published: 2026-07-08T07:00:00+00:00
-Tags: sleep deprivation, oxidative stress, gut-brain axis
+Published: 2026-07-19T00:00:00+00:00
+Tags: neural oscillations, brain stimulation, tACS, methods, consciousness
 
-Addresses sleep deprivation mechanisms and gut-brain signaling, but lacks direct electrophysiological measurement or neural dynamics focus; more molecular/immunological than neural data-driven.
+Employs brain stimulation to modulate neural oscillations and test rhythmic entrainment to speech; relevant to neural oscillation mechanisms and consciousness of sensory processing.
 
 <details>
 <summary>RSS summary</summary>
 
-Proceedings of the National Academy of Sciences, Volume 123, Issue 28, July 2026. <br />SignificanceOxidative stress is a common feature of many central and peripheral diseases and contributes significantly to disease progression. Therefore, understanding the early upstream mechanisms of reactive oxygen species (ROS) accumulation is ...
+Speech perception has been hypothesized to exploit neural activity that entrains to the rhythmic properties of the utterance. Perceptual sensitivity varies with the phase of oscillatory activity induced by speech, and with an external oscillatory perturbation induced by transcranial alternating current stimulation (tACS) over the temporal lobe. Here we used a new form of non-invasive brain stimulation (NIBS), kilohertz transcranial magnetic perturbation (kTMP), in which a low frequency perturbat…
 
 </details>
 
 ---
 
-## [Human cerebellum and ventral tegmental area interact during extinction of learned fear](https://elifesciences.org/articles/105399)
-*eLife*  
+## [Ventral tegmental area dopamine neuron activity mediates multi-valent outcomes during decision making under risk of punishment](https://www.biorxiv.org/content/10.64898/2026.07.14.738459v1?rss=1)
+*bioRxiv*  
 Score: **0.45**  
-Published: 2026-07-13T00:00:00+00:00
-Tags: fMRI, memory consolidation, fear learning, reward
+Published: 2026-07-20T00:00:00+00:00
+Tags: neural recording, fiber photometry, decision-making, neural dynamics, animal models
 
-Investigates neural circuits supporting fear extinction using 7T fMRI and reward prediction error processing; addresses memory consolidation and learning but lacks direct electrophysiology or oscillatory measures.
+Uses fiber photometry recordings of neural activity during decision-making. Provides cross-species perspective on neural mechanisms of cognition, though limited to single-cell modality.
 
 <details>
 <summary>RSS summary</summary>
 
-The key elements for fear extinction learning are unexpected omissions of expected aversive events, which are considered to be rewarding. Given its reception of reward information, we tested the hypothesis that the cerebellum contributes to reward-like prediction error processing driving extinction learning via its connections with the ventral tegmental area (VTA). Forty-three young and healthy participants performed a three-day fear conditioning paradigm in a 7T MR scanner. The cerebellum and V…
+Dopamine contributes to reward-related decision making, but its contributions to decision contexts that include explicit punishment are less well understood. To elucidate the role of ventral tegmental area (VTA) dopamine neurons in decision making under risk of punishment, we used fiber photometry to record activity in these neurons during a decision-making task in which rats choose between a small, "safe" reward and a large reward associated with varying probabilities of explicit punishment. Do…
 
 </details>
 
 ---
 
-## [Neural circuits for valence updating in social memory](https://www.science.org/doi/abs/10.1126/science.adx8231?af=R)
-*Science*  
-Score: **0.45**  
-Published: 2026-07-09T07:00:00+00:00
-Tags: neural circuits, memory, cognition
+## [Deep brain stimulation for the treatment of patients with dystonia: advances towards network-based personalised care](https://www.thelancet.com/journals/laneur/article/PIIS1474-4422(26)00192-4/fulltext?rss=yes)
+*Lancet Digital Health*  
+Score: **0.44**  
+Published: 2026-08-01T00:00:00+00:00
+Tags: neural circuits, computational neuroscience, translational, neural dynamics
 
-Addresses neural circuits underlying memory processes with potential relevance to memory consolidation and brain dynamics, though no explicit mention of electrophysiological methods or oscillations.
+Reviews network-based approaches to DBS targeting and motor circuit dysfunction; relevant to understanding basal ganglia-cortical oscillations and translational neuromodulation applications.
 
 <details>
 <summary>RSS summary</summary>
 
-Science, Volume 393, Issue 6807, July 2026. <br />
+Dystonia is a complex movement disorder that can cause functional disability and reduce quality of life. Deep brain stimulation (DBS) provides meaningful benefits in patients with medically refractory dystonia, but clinical outcomes can vary substantially. This variability likely reflects the heterogeneity in clinical presentations, genetic background, and brain networks involved in motor control. Dystonia is a network disorder involving abnormal interactions across cortico–basal ganglia–cerebel…
 
 </details>
 
 ---
 
-## [How attention simplifies mental representations for planning](https://elifesciences.org/articles/108034)
+## [A neural circuit for olfactory motion detection](https://www.biorxiv.org/content/10.64898/2026.07.13.738327v1?rss=1)
+*bioRxiv*  
+Score: **0.42**  
+Published: 2026-07-20T00:00:00+00:00
+Tags: neural circuits, computational neuroscience, cross-species
+
+Identifies neural circuits encoding spatiotemporal sensory structure in olfaction; demonstrates cross-species (Drosophila) circuit-level mechanisms relevant to understanding neural computation.
+
+<details>
+<summary>RSS summary</summary>
+
+Movement is a defining feature of dynamic environments and a key variable encoded by sensory systems. In vision, neural mechanisms that extract motion direction have been studied extensively across species, revealing circuits that compare signals across space and time. Odor plumes likewise carry motion information in their spatiotemporal structure, which walking fruit flies detect and exploit to improve navigation, independent of wind sensing. However, how olfactory circuits compute odor motion …
+
+</details>
+
+---
+
+## [Serial dependence predicts generalization in perceptual learning](https://elifesciences.org/articles/109830)
 *eLife*  
-Score: **0.45**  
-Published: 2026-07-09T00:00:00+00:00
-Tags: attention, computational neuroscience, cognition, planning
+Score: **0.42**  
+Published: 2026-07-20T00:00:00+00:00
+Tags: memory, learning, cognition, computational neuroscience
 
-Addresses computational mechanisms of attention and cognition relevant to consciousness and cognitive processing, but appears to lack neural recording data or electrophysiology.
+Examines how short-term memory traces support learning generalization. Relevant to memory consolidation mechanisms though limited to behavioral and modeling approaches without neural data.
 
 <details>
 <summary>RSS summary</summary>
 
-Human planning is efficient – it frugally deploys limited cognitive resources to accomplish difficult tasks – and flexible – adapting to novel problems and environments. Computational approaches suggest that people construct simplified mental representations of their environment, balancing the complexity of a task representation with its utility. These models imply a nested optimisation in which planning shapes perception and perception shapes planning – but the perceptual and attentional mechan…
+Visual perception is shaped by recent experience, but how these momentary influences accumulate to support long-term learning and generalization remains unclear. Here, we asked whether short-term memory traces, namely attractive serial-dependence effects (SDEs), promote learning generalization. We reanalyzed over 200,000 trials from observers trained on a visual texture-discrimination task under three conditions that differentially modulated generalization. Under certain conditions, SDEs reached…
 
 </details>
 
 ---
 
-## [Clarifications about there being two necessary conditions for consciousness](https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(26)00130-0?rss=yes)
-*Trends Cogn Sci*  
-Score: **0.40**  
-Published: 2026-07-09T00:00:00+00:00
-Tags: consciousness, theory
-
-Theoretical discussion of consciousness framework; user lists consciousness as an interest but this is conceptual without electrophysiological evidence or neural data.
-
-<details>
-<summary>RSS summary</summary>
-
-We recently proposed a modification to an influential conceptual framework in consciousness science: Ned Block’s distinction between phenomenal (P) consciousness and access (A) consciousness [1]. Instead, we proposed that there is only one type of consciousness, requiring two necessary conditions [2]. Importantly, we did not propose a new definition of consciousness; we agree with the current consensus that it is a ‘subjective experience’ in the here and now, or ‘what it is like’ from a first-pe…
-
-</details>
-
----
-
-## [Theta beta ratio in attention deficit hyperactivity disorder using a multiverse analysis](https://elifesciences.org/articles/111114)
+## [Organization of circuits linking descending input to motor output in the Drosophila Male Adult Nerve Cord connectome](https://elifesciences.org/articles/96084)
 *eLife*  
+Score: **0.42**  
+Published: 2026-07-20T00:00:00+00:00
+Tags: connectomics, cross-species, neural circuits, computational neuroscience
+
+Cross-species connectomics providing insights into circuit organization and computation. Relevant to comparative understanding of neural circuits, though focused on anatomical rather than electrophysiological properties.
+
+<details>
+<summary>RSS summary</summary>
+
+In most animals, a small number of descending neurons (DNs) connect the brain to circuits and motor neurons (MNs) in the nerve cord. To understand how brain signals generate behavior, it is critical to understand the organization of the neural pathways linking DNs to MNs. In companion papers, we introduced a densely reconstructed connectome of the <i>Drosophila</i> Male Adult Nerve Cord (MANC; Takemura et al., 2024), including cell types and developmental lineages (Marin et al., 2024), which pro…
+
+</details>
+
+---
+
+## [Enkephalin constrains fear learning via volume transmission to the lateral amygdala](https://www.biorxiv.org/content/10.64898/2026.07.17.739254v1?rss=1)
+*bioRxiv*  
 Score: **0.38**  
-Published: 2026-07-09T00:00:00+00:00
-Tags: EEG, oscillations, theta, ADHD
+Published: 2026-07-20T00:00:00+00:00
+Tags: memory, learning, neuromodulation, neural circuits
 
-Uses EEG to investigate oscillatory biomarkers (theta/beta ratio) but focuses on clinical diagnosis rather than mechanisms of neural oscillations or memory/sleep; multiverse approach addresses methodological concerns.
+Examines neuromodulation and synaptic mechanisms in memory-related learning. Provides mechanistic insights into memory regulation though primarily focuses on molecular rather than neural dynamics.
 
 <details>
 <summary>RSS summary</summary>
 
-Attention deficit hyperactivity disorder (ADHD) affects 5–7% of children worldwide, yet diagnosis continues to rely on clinical-behavioral assessments. The theta/beta ratio (TBR) derived from electroencephalography (EEG) has long been proposed as a complementary neurobiological marker of ADHD based on reports of elevated TBR in affected children. However, accumulating evidence has raised concerns about the robustness and generalizability of these findings, pointing to a strong sensitivity to met…
+Fear learning involves the formation of associations between cues and aversive outcomes, a process that must be tightly regulated to prevent excessive or generalised fear. Dopamine release in the lateral amygdala (LA) drives fear acquisition, whereas endogenous opioids constrain it. However, whether opioids are dynamically released within the amygdala circuits during learning, and how they exert this control remain unclear. Here we show that met-enkephalin is locally released within the amygdala…
 
 </details>
 
 ---
 
-## [Brain mitochondria as key drivers of cognition and behaviour](https://www.nature.com/articles/s41583-026-01061-1)
-*Nature Rev Neurosci*  
-Score: **0.35**  
-Published: 2026-07-13T00:00:00+00:00
-Tags: circuit function, neural dynamics, cognition, review
+## [NeuroFlow: An Integrated, Cross-Platform Workflow for Mouse Brain Atlas Registration and Quantification](https://www.biorxiv.org/content/10.64898/2026.07.15.737186v1?rss=1)
+*bioRxiv*  
+Score: **0.38**  
+Published: 2026-07-20T00:00:00+00:00
+Tags: methods, brain atlas, analysis workflow, neuroanatomy
 
-Reviews mitochondrial contributions to neuronal circuit function and plasticity relevant to understanding neurophysiological substrate, but primarily mechanistic without electrophysiology or oscillations.
+Methods paper for brain atlas registration and histological analysis. Useful as a neuroscience methods tool, though focused on anatomical rather than electrophysiological analysis.
 
 <details>
 <summary>RSS summary</summary>
 
-<p>Nature Reviews Neuroscience, Published online: 13 July 2026; <a href="https://www.nature.com/articles/s41583-026-01061-1">doi:10.1038/s41583-026-01061-1</a></p>Neuronal and glial mitochondria support neuronal circuit function and plasticity through the supply of energetic substrates and the regulation of cellular physiology. Sandi and colleagues describe how mitochondrial functions shape baseline circuit states, support circuit engagement and thereby contribute to cognition and behaviour.
+Registration of histological sections to a reference atlas is essential for anatomical localization and region-based quantitative analysis. Although established workflows are powerful, image preparation, registration, quantification, and visualization often rely on multiple software packages, some of which require platform-specific installation or locally configured programming environments. Here, we present NeuroFlow, a browser-based workflow for quantitative analysis of mouse brain histology. …
 
 </details>
 
 ---
 
-## [Entropy regularised reinforcement learning reconciles aversive and action prediction errors in the tail of the striatum](https://www.biorxiv.org/content/10.64898/2026.07.09.737461v1?rss=1)
+## [Response duration tracks confidence](https://www.pnas.org/doi/abs/10.1073/pnas.2612367123?af=R)
+*PNAS*  
+Score: **0.38**  
+Published: 2026-07-17T07:00:00+00:00
+Tags: cognition, consciousness, behavior, decision-making
+
+Examines timing signatures of cognitive processing and confidence; relates to consciousness and cognition but appears to be behavioral-level analysis without neural recordings.
+
+<details>
+<summary>RSS summary</summary>
+
+Proceedings of the National Academy of Sciences, Volume 123, Issue 29, July 2026. <br />The timing of behavioral responses is among the most robust signatures of cognitive processing—with easier, more accurate, and more confident judgments typically made more quickly. But which aspects of response timing carry these signals? Whereas the time ...
+
+</details>
+
+---
+
+## [Task-specific ISS reduction and network balance during Stroop task performance in older adults](https://www.biorxiv.org/content/10.64898/2026.07.13.738225v1?rss=1)
 *bioRxiv*  
 Score: **0.35**  
-Published: 2026-07-11T00:00:00+00:00
-Tags: electrophysiology, computational neuroscience, striatum
+Published: 2026-07-20T00:00:00+00:00
+Tags: fMRI, cognition
 
-Combines dopamine electrophysiology with computational reinforcement learning model, but narrowly focused on striatal function without broader oscillatory or cross-region integration analysis.
+Uses fMRI-based inter-subject similarity and Bayesian modeling during cognitive tasks; limited to hemodynamic fMRI without electrophysiology or oscillatory measures.
 
 <details>
 <summary>RSS summary</summary>
 
-Dopamine activity in the tail of the striatum (TS) presents a novel challenge for reinforcement-learning theories of dopamine. Some studies suggest that TS-projecting dopamine signals encode aversive or threat prediction errors, whereas others argue that they encode action prediction errors involved in soft-habit formation. Here, we show that these accounts need not be mutually exclusive. We instantiate an entropy-regularised reinforcement-learning model in which TS-projecting dopamine neurons u…
+Declines in the cognitive inhibition that comes with aging impacts daily life and independence. It is still debated whether overactivation during cognitive inhibition tasks in older adults is due to compensation or neural noise. To address this question, we examined age-related changes in inter-subject similarity (ISS) of functional connectivity from task-based and resting-state fMRI. Using Bayesian hierarchical modeling, we identified 27 Stroop task-related regions of interest and found that IS…
 
 </details>
 
 ---
 
-## [C1q and immunoglobulins mediate activity-dependent synapse loss in the adult brain](https://www.science.org/doi/abs/10.1126/science.adv1219?af=R)
-*Science*  
+## [The view tolerance of human identity recognition depends on horizontal face information](https://elifesciences.org/articles/108495)
+*eLife*  
 Score: **0.35**  
-Published: 2026-07-09T07:00:00+00:00
-Tags: synaptic plasticity, cortex, neural dynamics
+Published: 2026-07-20T00:00:00+00:00
+Tags: cognition, perception, computational neuroscience, vision
 
-Studies activity-dependent synaptic mechanisms in the brain, but appears focused on molecular/immunological mechanisms rather than neural dynamics, oscillations, or electrophysiology.
+Vision science study of perceptual mechanisms using behavioral and computational methods. Marginally relevant to understanding cognition and perception without neural data.
 
 <details>
 <summary>RSS summary</summary>
 
-Science, Volume 393, Issue 6807, July 2026. <br />
+This study investigates which visual information enables humans to recognize facial identity across different viewpoints, a key unresolved question in vision science. Participants completed an identity recognition task using faces rotated across a range of yaw angles and filtered to retain specific orientation ranges of visual information. Regardless of viewpoint, human performance consistently relied on horizontal facial information. To understand why, we used model observers to assess the iden…
 
 </details>
 
 ---
 
-## [What consciousness is should be determined empirically, not a priori](https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(26)00079-3?rss=yes)
-*Trends Cogn Sci*  
+## [Guarded Slumber: Dynamic Disconnection, Selective Monitoring and the Balance of Information Processing During Sleep](https://onlinelibrary.wiley.com/doi/10.1111/jsr.70404?af=R)
+*Journal of Sleep Research*  
 Score: **0.35**  
-Published: 2026-07-09T00:00:00+00:00
-Tags: consciousness, theory, empiricism
+Published: 2026-07-17T00:14:56+00:00
+Tags: sleep, consciousness, neural dynamics
 
-Argues for empirical approaches to consciousness but lacks neural data or electrophysiology focus; conceptual/theoretical contribution only.
+Addresses sleep neural dynamics and consciousness; relevant to sleep and information processing but lacks explicit electrophysiology methodology details in available summary.
 
 <details>
 <summary>RSS summary</summary>
 
-Mudrik et al. [1] raise an important concern: that research on consciousness risks fragmentation. They partly attribute this to Block’s distinction between phenomenal (P-) and access (A-) consciousness [2] and propose treating them as jointly necessary conditions of any conscious state. This ‘tectonic’ move is rhetorically appealing. Our concern is that it risks resolving a central empirical question by definition. In doing so, it (i) introduces a substantive theoretical commitment under the gui…
+Journal of Sleep Research, EarlyView.
 
 </details>
 
 ---
 
-_Model claude-haiku-4-5 · 44,466 in + 6,840 out tokens · est. cost this run: $0.08_
+## [Effects of Pre‐Bedtime Social Media Use on Objective and Subjective Sleep Quality in Adolescents and Young Adults](https://onlinelibrary.wiley.com/doi/10.1111/jsr.70405?af=R)
+*Journal of Sleep Research*  
+Score: **0.35**  
+Published: 2026-07-16T07:57:50+00:00
+Tags: sleep, behavioral, limited neural data
+
+Sleep research but appears to lack neural electrophysiological data collection or computational modeling of sleep mechanisms; focuses on behavioral/subjective outcomes without oscillatory or spectral characterization.
+
+<details>
+<summary>RSS summary</summary>
+
+Journal of Sleep Research, EarlyView.
+
+</details>
+
+---
+
+_Model claude-haiku-4-5 · 45,302 in + 19,270 out tokens · est. cost this run: $0.14_
