@@ -20,9 +20,22 @@ If it is primarily microbiology/immunology/metabolism/genetics without neural dy
 EEG
 electroencephalography
 sleep
+N2
+N3
 memory
-sleep spindles
-slow oscillations
+memory replay
+epilepsy
+focal epilepsy
+temporal lobe epilepsy
+interictal epileptiform discharge
+IED
+coupling
+decoupling
+ripple
+phase coupling
+traveling wave
+sleep spindle
+slow oscillation
 memory replay
 neural synchrony
 cortex
@@ -38,6 +51,7 @@ ECoG
 electrocorticography
 neural oscillations
 aperiodic activity
+time-resolved aperiodic activity
 neural timescales
 ECG
 electrocorticography
