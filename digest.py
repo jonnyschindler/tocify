@@ -2,7 +2,6 @@ import os, re, json, time, math, hashlib
 from datetime import datetime, timezone, timedelta
 
 import feedparser
-import httpx
 from dateutil import parser as dtparser
 import anthropic
 from anthropic import APITimeoutError, APIConnectionError, RateLimitError
@@ -195,7 +194,7 @@ def make_anthropic_client() -> anthropic.Anthropic:
     if not key.startswith("sk-ant-"):
         raise RuntimeError("ANTHROPIC_API_KEY missing/invalid (expected to start with 'sk-ant-').")
     http_client = anthropic.DefaultHttpxClient(
-        timeout=httpx.Timeout(connect=30.0, read=300.0, write=30.0, pool=30.0),
+        timeout=anthropic.Timeout(connect=30.0, read=300.0, write=30.0, pool=30.0),
         http2=False,
         trust_env=False,
         headers={"Connection": "close", "Accept-Encoding": "gzip"},
