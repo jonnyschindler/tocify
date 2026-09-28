@@ -1,512 +1,376 @@
-# Weekly ToC Digest (week of 2026-09-21)
+# Weekly ToC Digest (week of 2026-09-28)
 
-Triaged 51 items. High-value submissions include spike-wave discharge electrophysiology in epilepsy, phase-amplitude coupling methods, MEG neural fingerprinting, EEG developmental trajectories, and memory consolidation mechanisms. Filtered out clinical/psychiatry-only, oncology, immunology, and structural biology papers lacking neural dynamics or computational approaches. No papers from this week's RSS items are relevant to the user's research interests in sleep neuroscience, electrophysiology, neural oscillations, aperiodic dynamics, memory consolidation, or consciousness. Both items focus on biomedical policy/clinical translation and plasma products without neural data or mechanisms.
+This week's RSS items are heavily weighted toward clinical psychiatry, Alzheimer's disease biomarkers, ALS therapeutics, and general neurology topics. Very few items contain relevant electrophysiology, neural signal processing, or computational neuroscience methods. The bioRxiv preprints offer slightly more technical content, but most remain outside core interests in sleep, oscillations, aperiodic dynamics, and human electrophysiology. Prioritized papers with MEG/EEG, neural oscillations, spectral methods, consciousness, and time-series analysis. Heavily downweighted molecular biology, clinical-only, and imaging-only studies lacking electrophysiology or computational approaches. Most items are not relevant to the user's research focus on electrophysiology, neural oscillations, sleep, memory consolidation, and consciousness. Only a small number of items touch on neuroscience topics, but most lack the specific electrophysiological, computational, or signal-processing methods the user pri
 
-**Included:** 31 (score ≥ 0.35)  
-**Scored:** 50 total items
+**Included:** 22 (score ≥ 0.35)  
+**Scored:** 94 total items
 
 ---
 
-## [Spike-wave discharges reflect widespread, but non-uniform, cortical hypersynchrony during immobility](https://www.biorxiv.org/content/10.64898/2026.09.14.751500v1?rss=1)
+## [Resting Cortical Alpha and Beta Oscillations are Continuous Across Space and Frequency](https://www.biorxiv.org/content/10.64898/2026.09.22.752811v1?rss=1)
 *bioRxiv*  
-Score: **0.95**  
-Published: 2026-09-21T00:00:00+00:00
-Tags: epilepsy, electrophysiology, spike-wave, synchrony, phase-locking, cortex
-
-Direct electrophysiology of spike-wave discharges using silicon probes across cortical regions in epilepsy model; measures neural synchrony, rhythmicity, and phase-locking—core to understanding epileptiform dynamics and inter-regional coupling mechanisms.
-
-<details>
-<summary>RSS summary</summary>
-
-Spike-wave discharges (SWDs) are the electrographic hallmark of absence epilepsy, yet direct evidence for their proposed basis in cortical hypersynchrony has been scarce. We addressed this gap by recording neuronal populations across three cortical regions - primary somatosensory (S1), visual (V1), and secondary motor cortex (M2) - using silicon probe arrays in spontaneously seizing C3H/HeJ mice. SWDs drove profound increases in neuronal synchrony, rhythmicity, and phase-locking across all recor…
-
-</details>
-
----
-
-## [Computing the geometry of phase-amplitude coupling: A new moment-based framework](https://www.biorxiv.org/content/10.64898/2026.09.15.751789v1?rss=1)
-*bioRxiv*  
-Score: **0.92**  
-Published: 2026-09-21T00:00:00+00:00
-Tags: phase-amplitude coupling, methods, neural oscillations, spectral analysis
-
-Novel methodological framework for phase-amplitude coupling analysis that addresses geometric and modal structure—directly relevant to coupling analyses and oscillatory interaction measurement in neural data.
-
-<details>
-<summary>RSS summary</summary>
-
-Phase-amplitude coupling (PAC) is widely used to quantify interactions between neural oscillations, yet cannot establish whether two coupling profiles share the same geometry, phase polarity or modal structure. Here we demonstrate that commonly-used PAC metrics constitute many-to-one mappings from phase-amplitude distributions to low-dimensional summaries. This results in distinct coupling geometries yielding identical PAC values. We propose formalising PAC as a hierarchy of representations, int…
-
-</details>
-
----
-
-## [Neural Fingerprinting based on Brain Network Dynamics: A Cross-Platform MEG Study](https://www.biorxiv.org/content/10.64898/2026.09.14.751409v1?rss=1)
-*bioRxiv*  
-Score: **0.88**  
-Published: 2026-09-21T00:00:00+00:00
-Tags: MEG, neural dynamics, methods, consciousness
-
-Uses MEG temporal dynamics for individual fingerprinting across SQUID and optically-pumped systems; demonstrates novel application of brain network dynamics relevant to consciousness and individual neural signatures.
-
-<details>
-<summary>RSS summary</summary>
-
-Neural fingerprinting seeks to identify individuals based on measurements of brain activity, exploiting the fact that aspects of brain function unique to an individual remain stable across repeated scans. Magnetoencephalography (MEG) is a powerful technique for fingerprinting. However, most MEG studies have used conventional (SQUID-based) MEG technology and typically rely on data aggregated over time, overlooking the rich temporal dynamics available in MEG. Here, using SQUID-MEG and the more rec…
-
-</details>
-
----
-
-## [CA1 reinstatement and novelty response independently support recognition memory](https://www.biorxiv.org/content/10.64898/2026.09.14.751602v1?rss=1)
-*bioRxiv*  
-Score: **0.85**  
-Published: 2026-09-21T00:00:00+00:00
-Tags: hippocampus, memory, memory replay, electrophysiology, CA1
-
-Electrophysiological recording of CA1 during memory tasks examining reinstatement (consistency) versus novelty processing; directly addresses memory consolidation mechanisms in hippocampus.
-
-<details>
-<summary>RSS summary</summary>
-
-One of the central tensions in memory research is whether consistency or differentiation across events is beneficial for remembering. While theoretical models posit that the hippocampal subfield CA1 subserves both types of computations, it remains unclear how it can simultaneously express both in service of recognition memory. Here, we contrasted the two prominent functions of CA1: reinstatement (consistency) and novelty processing (differentiation) to address this gap. To this end, we analysed …
-
-</details>
-
----
-
-## [Lack of vision shifts occipital dynamics toward a frontal-like regime and enhances top-down connectivity](https://www.biorxiv.org/content/10.64898/2026.09.18.752597v1?rss=1)
-*bioRxiv*  
-Score: **0.84**  
-Published: 2026-09-21T00:00:00+00:00
-Tags: EEG, neural dynamics, connectivity, cortex
-
-EEG-TMS study characterizing intrinsic cortical dynamics and large-scale effective connectivity; demonstrates neural dynamics reorganization relevant to understanding oscillatory regime shifts.
-
-<details>
-<summary>RSS summary</summary>
-
-The human occipital cortex is robustly repurposed for non-visual cognition after blindness, yet it remains unknown whether this functional reassignment is accompanied by a fundamental retuning of its intrinsic neural dynamics. Here, we recorded the electroencephalographic (EEG) responses to transcranial magnetic stimulation (TMS) of frontal and occipital areas to causally probe local cortical reactivity and large-scale effective connectivity in 16 blind individuals and 16 sighted controls. Direc…
-
-</details>
-
----
-
-## [Intracranial recordings in humans reveal differential contributions of medial and lateral orbitofrontal cortex to approach–avoidance decision-making](https://www.nature.com/articles/s41593-026-02444-4)
-*Nature Neuroscience*  
 Score: **0.82**  
-Published: 2026-09-15T00:00:00+00:00
-Tags: iEEG, intracranial EEG, human, cognition, electrophysiology
+Published: 2026-09-28T00:00:00+00:00
+Tags: MEG, alpha oscillations, beta oscillations, spectral analysis, neural dynamics
 
-Intracranial EEG recordings in humans (iEEG) reveal oppositely tuned activity during decision-making; demonstrates translational application of intracranial electrophysiology to human cognition.
+Directly addresses cortical alpha and beta oscillations using MEG with unsupervised clustering of spatio-spectral peaks, highly relevant to neural oscillations and spectral parameterization interests.
 
 <details>
 <summary>RSS summary</summary>
 
-<p>Nature Neuroscience, Published online: 15 September 2026; <a href="https://www.nature.com/articles/s41593-026-02444-4">doi:10.1038/s41593-026-02444-4</a></p>Intracranial recordings reveal oppositely tuned activity in the medial and lateral regions of the human orbitofrontal cortex during approach–avoidance decisions: the medial orbital sulcus activates just before approach, whereas lateral orbitofrontal cortex activity decreases before approach.
+Cortical alpha and beta oscillations are traditionally conceptualized as spatially distinct, with alpha rhythms constrained to the occipital cortex and beta rhythms to frontal cortices. Little work has tested this spatial separability empirically and explored whether the distribution of these cortical rhythms may be continuous in space and frequency. Using task-free magnetoencephalography of 604 participants and density-based unsupervised clustering of individual spatio-spectral peaks, we show t…
 
 </details>
 
 ---
 
-## [Hippocampal astrocytic sequences emerge during learning and memory recall](https://www.nature.com/articles/s41593-026-02448-0)
-*Nature Neuroscience*  
-Score: **0.80**  
-Published: 2026-09-16T00:00:00+00:00
-Tags: hippocampus, memory, memory replay, learning, neural dynamics
+## [Opening the black box toward a modular approach to spike sorting](https://elifesciences.org/articles/110588)
+*eLife*  
+Score: **0.75**  
+Published: 2026-09-25T00:00:00+00:00
+Tags: spike sorting, methods, Neuropixels, extracellular electrophysiology, neural data science
 
-Calcium imaging reveals time-compressed sequences in hippocampal astrocytes during memory recall and learning; contributes to understanding memory consolidation mechanisms and cellular replay dynamics.
+Directly addresses spike sorting methods for high-density probes like Neuropixels, a key tool for acute human electrophysiology. Relevant to neural signal processing and extracellular recording analysis that the user applies to human electrophysiology data.
 
 <details>
 <summary>RSS summary</summary>
 
-<p>Nature Neuroscience, Published online: 16 September 2026; <a href="https://www.nature.com/articles/s41593-026-02448-0">doi:10.1038/s41593-026-02448-0</a></p>Senne, Suthard and colleagues show that dorsal hippocampal astrocytes display time-compressed calcium-event sequences after foot shock and upon context re-exposure, and that their spontaneous activity relates to freezing and implicates astrocytes in associative memory.
+Spike sorting is an algorithmic process that extracts the activity of individual neurons from extracellular electrophysiology recordings. With the ballooning use of high-density probes, such as Neuropixels, this essential processing step is increasingly becoming time-consuming and computationally expensive. Although many software tools have been proposed to address spike sorting, they are usually constructed and benchmarked as monolithic ‘black boxes’, making it difficult to factor out the effec…
 
 </details>
 
 ---
 
-## [Gradual evolution of multiplexed spatial coding within a conserved hippocampal scaffold](https://www.biorxiv.org/content/10.64898/2026.09.19.752914v1?rss=1)
-*bioRxiv*  
-Score: **0.78**  
-Published: 2026-09-21T00:00:00+00:00
-Tags: hippocampus, electrophysiology, cross-species, CA1, spatial coding
-
-Comparative electrophysiology across species (rats, tree shrews) examining CA1 spatial coding; relevant to understanding cross-species conservation of hippocampal computation and memory mechanisms.
-
-<details>
-<summary>RSS summary</summary>
-
-The hippocampus constructs spatial maps for navigation, yet their format differs markedly across species. Whether divergences reflect ecological adaptation, phylogenetic architecture, or flexible coding strategy within a conserved circuit has been difficult to disentangle. We recorded CA1 in rats and tree shrews (Tupaia belangeri chinensis), a mammal phylogenetically and ecologically between rodents and primates, using identical tasks and analyses. Unlike the position-dominant code of rats, tree…
-
-</details>
-
----
-
-## [Reciprocal connections dynamically build consensus between neocortical areas](https://www.nature.com/articles/s41593-026-02437-3)
-*Nature Neuroscience*  
-Score: **0.76**  
-Published: 2026-09-18T00:00:00+00:00
-Tags: neural oscillations, cortex, coupling, neural dynamics
-
-Demonstrates slow oscillatory dynamics emerging through reciprocal inter-cortical connections that build consensus; relevant to understanding inter-regional coupling and neural synchrony.
-
-<details>
-<summary>RSS summary</summary>
-
-<p>Nature Neuroscience, Published online: 18 September 2026; <a href="https://www.nature.com/articles/s41593-026-02437-3">doi:10.1038/s41593-026-02437-3</a></p>The authors show that reciprocal interactions between cortical areas generate slow dynamics that gradually build consensus across distributed cortical networks, revealing a potential general principle for coordinating activity across the neocortex.
-
-</details>
-
----
-
-## [Dale's law, stability and nonlinearity are sufficient constraints to ignite transient and self-sustained neural dynamics](https://www.biorxiv.org/content/10.64898/2026.09.14.751508v1?rss=1)
+## [TEFAR: a lightweight, configurable framework for semi-automatic artefact component classification in EEG and TMS-EEG](https://www.biorxiv.org/content/10.64898/2026.09.22.751113v1?rss=1)
 *bioRxiv*  
 Score: **0.72**  
-Published: 2026-09-21T00:00:00+00:00
-Tags: computational neuroscience, neural dynamics, oscillations, cortex
+Published: 2026-09-28T00:00:00+00:00
+Tags: EEG, methods, artifact detection, ICA, signal processing
 
-Computational neuroscience model explaining emergence of distinct network dynamics; relevant to understanding neural oscillations and aperiodic dynamics in cortical circuits.
+Directly addresses EEG artifact removal and component classification, a critical preprocessing step for human electrophysiology analysis. Relevant to improving data quality for oscillatory and aperiodic characterization in both scalp and concurrent TMS-EEG paradigms.
 
 <details>
 <summary>RSS summary</summary>
 
-The motor cortex orchestrates a rich and flexible repertoire of network dynamics for rhythmic and goal-directed movements. Computational studies have begun to illuminate the mechanistic origins of this repertoire, but a comprehensive model that can explain the emergence of both transient and self-sustained dynamics is still missing. Here, we show that three simple ingredients: Dalean connectivity, stability, and nonlinear neural responses, suffice to reverse-engineer networks that produce transi…
+Independent component analysis (ICA) is widely used to remove artefacts from EEG and TMS-EEG recordings, but the components that correspond to artefacts are usually identified by manual inspection, which is subjective and difficult to reproduce. Existing automated classifiers are either designed for ordinary EEG and do not target the artefacts specific to concurrent transcranial magnetic stimulation, or are built on EEGLAB, so none is available for FieldTrip-based pipelines. We present TEFAR, a …
 
 </details>
 
 ---
 
-## [Infants at high and low likelihood for autism show different EEG developmental trajectories in speech tracking and statistical learning](https://elifesciences.org/articles/109901)
-*eLife*  
-Score: **0.70**  
-Published: 2026-09-21T00:00:00+00:00
-Tags: EEG, development, neural dynamics, cognition
-
-EEG developmental trajectories examining speech tracking and statistical learning; demonstrates neural dynamics differences across developmental trajectories relevant to understanding consciousness and cognition.
-
-<details>
-<summary>RSS summary</summary>
-
-Delayed onset of canonical babbling and first words is often reported in infants later diagnosed with autism spectrum disorder. Identifying the neural mechanisms underlying language acquisition in autism is therefore critical to inform early diagnosis, prognosis, and intervention strategies. In this study, we investigated two speech processing mechanisms previously identified as atypical in children and adults with autism: the neural ability to track syllables, and statistical learning, the capa…
-
-</details>
-
----
-
-## [NeuralRNN: a unified framework for recurrent neural network methods in cognitive neuroscience](https://www.biorxiv.org/content/10.64898/2026.09.14.751453v1?rss=1)
+## [Spiral brain dynamics track the temporal unfolding of subjective intensity during the N,N-dimethyltryptamine experience](https://www.biorxiv.org/content/10.64898/2026.09.22.753116v1?rss=1)
 *bioRxiv*  
-Score: **0.70**  
-Published: 2026-09-21T00:00:00+00:00
-Tags: methods, computational neuroscience, neural data science, RNN
+Score: **0.72**  
+Published: 2026-09-28T00:00:00+00:00
+Tags: consciousness, neural dynamics, time-resolved analysis, psychedelic, brain dynamics
 
-Open-source framework for RNN methods in cognitive neuroscience; relevant to neural data science and computational modeling of neural dynamics.
+Uses novel metrics (vorticity-based) to quantify rotational neural dynamics across space and time during altered consciousness states, aligning with interests in consciousness and neural dynamics methods.
 
 <details>
 <summary>RSS summary</summary>
 
-Recurrent neural networks (RNNs) provide a central tool in neuroscience to optimize cognitive tasks and reconstruct dynamical systems. Around these two paradigms, many RNN model variants have been tailored to capture specific computations of the brain. In practice, however, this methodological diversity remains difficult to exploit, because different paradigms and model variants are mostly implemented in idiosyncratic, study-specific code. Here we introduce NeuralRNN, an open-source Python frame…
+Psychedelic compounds such as N,N-dimethyltryptamine (DMT) induce rapid and profound changes in conscious experience, requiring neuroimaging measures that capture how brain dynamics evolve across space and time. Emerging evidence suggests that rotational (vortex-like) dynamics may contribute to the coordination of large-scale neural activity. Here, we introduce two vorticity-based metrics; spiral vorticity (SV) and spatial spiral vorticity dispersion (SSVD), to quantify the rotational organizati…
 
 </details>
 
 ---
 
-## [A Test for Confounding in Coupling of Multimodal Neuroimaging Data](https://www.biorxiv.org/content/10.64898/2026.09.14.750774v1?rss=1)
+## [Connexin 40 deficiency alters the temporal profile of postictal oxygen dynamics following focal seizures.](https://www.biorxiv.org/content/10.64898/2026.09.21.750745v1?rss=1)
 *bioRxiv*  
-Score: **0.68**  
-Published: 2026-09-21T00:00:00+00:00
-Tags: methods, coupling, data science, multimodal
+Score: **0.65**  
+Published: 2026-09-28T00:00:00+00:00
+Tags: focal seizures, epilepsy, cerebrovascular, temporal dynamics, seizure physiology
 
-Statistical methods for evaluating spatial correspondence and coupling in multimodal neuroimaging; addresses methodological rigor in measuring inter-modal coherence.
+Examines vascular and neuronal dynamics in focal seizures with direct relevance to epilepsy mechanisms. Combines seizure physiology with temporal dynamics profiling, though focuses on oxygenation rather than direct electrophysiology.
 
 <details>
 <summary>RSS summary</summary>
 
-Multimodal neuroimaging studies often involve comparisons between brain maps. Recently, statistical methods have been proposed to quantify and assess spatial correspondence between two modalities. The simple permutation-based inter-modal correspondence (SPICE) test evaluates whether within-subject correspondence exceeds chance, where the null distribution is constructed by permuting subject labels for one modality. Despite its easy implementation and minimal spatial assumptions, the critical ass…
+Epilepsy is increasingly recognized as a disorder involving both neuronal and vascular dysfunction. While connexin signaling has been implicated in epileptogenesis, the contribution of vascular connexins to seizure associated cerebrovascular pathology remains poorly understood. Connexin40 (Cx40) is an endothelial gap junction protein that plays a crucial role in vascular communication and blood-flow regulation. Seizures induce dynamic changes in cerebral perfusion and oxygenation, including prol…
 
 </details>
 
 ---
 
-## [MEG Signatures of Differences in Auditory Cortex Responses to Trigger versus Non-Trigger Sounds in Misophonia](https://www.biorxiv.org/content/10.64898/2026.09.14.751161v1?rss=1)
+## [Sensing the heart, seeing the world: Neural mechanisms of attentional allocation between interoception and exteroception](https://www.biorxiv.org/content/10.64898/2026.09.22.751480v1?rss=1)
 *bioRxiv*  
-Score: **0.66**  
-Published: 2026-09-21T00:00:00+00:00
-Tags: MEG, auditory cortex, neural oscillations
+Score: **0.65**  
+Published: 2026-09-28T00:00:00+00:00
+Tags: attention, interoception, ECG, consciousness, neural mechanisms
 
-MEG study with millisecond temporal resolution examining auditory cortex responses; relevant to understanding spectral and temporal signatures in psychiatric/sensory conditions.
+Investigates neural mechanisms of attention allocation using fMRI combined with physiological signals (ECG), relevant to consciousness and interoceptive mechanisms though limited by fMRI-only electrophysiology.
 
 <details>
 <summary>RSS summary</summary>
 
-Misophonia is characterized by intense emotional and physiological reactions to specific trigger sounds that may vary across individuals. Despite greater recognition and increased research, the neural mechanisms underlying misophonia are still poorly understood. Using magnetoencephalography (MEG) with millisecond temporal resolution, we examined auditory cortex responses to trigger versus non-trigger sounds in 23 individuals (ages 14 - 32 years) that met criteria for misophonia on a screening as…
+Adaptive behaviour requires the flexible allocation of attention between sensory information arising from the external environment (exteroception) and signals originating within the body (interoception). While the neural mechanisms supporting exteroceptive attention have been extensively characterised, considerably less is known about how attention is allocated between competing interoceptive and exteroceptive sources of information. To address this question, we used functional magnetic resonanc…
 
 </details>
 
 ---
 
-## [Emotion Dysregulation Links Interoceptive Accuracy and Vagal Activity to Psychopathology in Male but not Female Adolescents](https://www.biorxiv.org/content/10.64898/2026.09.14.751467v1?rss=1)
+## [Degraded neural representations foreshadow failures of sustained attention](https://www.biorxiv.org/content/10.64898/2026.09.21.753248v1?rss=1)
 *bioRxiv*  
-Score: **0.62**  
-Published: 2026-09-21T00:00:00+00:00
-Tags: ECG, coupling, physiology
+Score: **0.64**  
+Published: 2026-09-28T00:00:00+00:00
+Tags: attention, neural representations, cognition, computational neuroscience
 
-Examines coupling between interoceptive accuracy and vagal regulation (ECG-based) to psychopathology; relevant to understanding physiological signal coupling and emotion regulation.
+Examines how neural representation strength predicts attentional lapses, combining neural data with computational analysis relevant to cognition and neural dynamics though lacks detailed methodology.
 
 <details>
 <summary>RSS summary</summary>
 
-Background: Emotion dysregulation is common across psychiatric disorders, but the biological mechanisms underlying emotional vulnerability remain poorly understood. Cardiac vagal regulation and interoception, the perception of bodily signals, may jointly contribute to emotion regulation. We examined whether their interaction is associated with emotion dysregulation and psychopathology in adolescents receiving psychiatric inpatient treatment. Methods: We studied 279 adolescent psychiatric inpatie…
+Attention prioritizes relevant information from the environment, but does not do so consistently over time. Instead, we sometimes experience poor attentional states which are characterized by a higher degree of performance failures, or "lapses." The source of these lapses--whether they arise from attentional disengagement, failures of attentional selection, or simply failures of response control--is not clear. This study tests whether the strength of neural representations differs as a function …
 
 </details>
 
 ---
 
-## [Enhanced tactile coding in rat neocortex under darkness](https://elifesciences.org/articles/106554)
-*eLife*  
+## [Repeated Inertial Stimulation Reveals Divergent Plasticity in Peripheral and Central Vestibular Pathways](https://www.biorxiv.org/content/10.64898/2026.09.22.752866v1?rss=1)
+*bioRxiv*  
 Score: **0.60**  
-Published: 2026-09-21T00:00:00+00:00
-Tags: electrophysiology, cortex, sensory coding
+Published: 2026-09-28T00:00:00+00:00
+Tags: evoked potentials, neural synchrony, vestibular system, physiological signals
 
-Electrophysiology study examining sensory cortex reorganization during visual deprivation; demonstrates neural dynamics reorganization relevant to understanding cross-modal coupling.
+Measures vestibular short-latency evoked potentials (VsEPs) to quantify physiological synchrony, relevant to neural oscillations and physiological signal processing methods.
 
 <details>
 <summary>RSS summary</summary>
 
-Sensory systems are known for their adaptability, responding dynamically to changes in environmental conditions. A key example of this adaptability is the enhancement of tactile perception in the absence of visual input. Despite behavioral studies showing visual deprivation can improve tactile discrimination, the underlying neural mechanisms, particularly how tactile neural representations are reorganized during visual deprivation, remain unclear. In this study, we explore how the absence of vis…
+The vestibular system consists of peripheral end organs that provide the brain with temporally precise information about head position in space required for motor coordination and postural stability. Irregular vestibular afferents of the inner ear are particularly sensitive to rapid changes in acceleration, or jerk, which is necessary for making quick, corrective movements and postural adjustments. Vestibular short-latency evoked potentials (VsEPs) are waveforms that provide a measure of synchro…
 
 </details>
 
 ---
 
-## [Pregnancy Impacts Maternal Sleep: Focus on Kynurenine Pathway Activation in Female Rats](https://www.biorxiv.org/content/10.64898/2026.09.14.751544v1?rss=1)
-*bioRxiv*  
-Score: **0.58**  
-Published: 2026-09-21T00:00:00+00:00
-Tags: sleep, animal model
+## [Exponentiated gradient learning yields brain-like synaptic distributions](https://www.cell.com/neuron/fulltext/S0896-6273(26)00677-X?rss=yes)
+*Neuron*  
+Score: **0.59**  
+Published: 2026-09-28T00:00:00+00:00
+Tags: computational neuroscience, neural computation, learning algorithms, synaptic dynamics
 
-Sleep study examining metabolic pathways affecting sleep-wake behavior in pregnant animals; marginally relevant to sleep mechanism understanding.
+Develops computational learning models producing brain-like weight distributions while respecting biological constraints, directly relevant to neural computation and computational neuroscience interests.
 
 <details>
 <summary>RSS summary</summary>
 
-Study Objectives: Poor maternal sleep is associated with adverse health outcomes for women and their offspring, and perturbations to tryptophan metabolism through the kynurenine pathway (KP) may contribute. Kynurenic acid (KYNA), a neuroactive KP metabolite and endogenous modulator of glutamatergic and cholinergic neurotransmission, is of particular interest because elevated KYNA has been linked to altered sleep-wake behavior and neurodevelopmental outcomes. Because sleep patterns and KP metabol…
+Cornford et al. show that exponentiated gradient (EG) learning, which updates synapses multiplicatively, matches gradient descent on cognitive tasks while respecting Dale’s law and producing brain-like log-normal weight distributions. EG-trained networks better withstand synaptic pruning and learn more effectively when many inputs are task-irrelevant.
 
 </details>
 
 ---
 
-## [A geniculocortical circuit model predicts functional organization underlying efficient spatial frequency coding in the mouse visual system](https://www.biorxiv.org/content/10.64898/2026.09.15.751823v1?rss=1)
-*bioRxiv*  
-Score: **0.58**  
-Published: 2026-09-21T00:00:00+00:00
-Tags: computational neuroscience, thalamus, cortex, neural computation
-
-Computational model of geniculocortical circuit for efficient sensory coding; relevant to understanding neural computation and thalamic-cortical coupling.
-
-<details>
-<summary>RSS summary</summary>
-
-Neural encoding of sensory information becomes more efficient when distinct stimuli evoke uncorrelated activity patterns. Spatial frequency (SF) information becomes decorrelated early in visual processing in a manner that involves both temporal differentiation in the dorsal lateral geniculate nucleus (dLGN) and firing rate differentiation in the primary visual cortex (V1). However, the specific functional circuit configurations that enable this synergy are not fully understood. To address this g…
-
-</details>
-
----
-
-## [A transformer-based model reveals sparse, stimulus-dependent orientation readout from macaque V1 population activity](https://www.biorxiv.org/content/10.64898/2026.09.15.751671v1?rss=1)
-*bioRxiv*  
-Score: **0.56**  
-Published: 2026-09-21T00:00:00+00:00
-Tags: neural data science, population activity, cortex
-
-Deep learning model applied to two-photon calcium imaging for understanding population coding; demonstrates neural data science applied to sensory computation.
-
-<details>
-<summary>RSS summary</summary>
-
-Orientation information in primary visual cortex (V1) is represented by large populations of neurons with overlapping tuning preferences, yet how this information is selectively read out remains unclear. Here we proposed a transformer-based model to reconstruct oriented Gabor stimuli from two-photon calcium responses of more than 1000 simultaneously recorded macaque V1 neurons. The model reconstructed stimulus orientation with high precision and revealed, through its self-attention maps, a spars…
-
-</details>
-
----
-
-## [Predictive value of brain 18F-FDG PET neuroimaging in a mouse model of sudden death](https://www.biorxiv.org/content/10.64898/2026.09.14.751341v1?rss=1)
-*bioRxiv*  
+## [Selective lifelong suppression of an odor processing channel in response to critical period experience](https://elifesciences.org/articles/108236)
+*eLife*  
 Score: **0.55**  
-Published: 2026-09-21T00:00:00+00:00
-Tags: ECG, neuroimaging
+Published: 2026-09-28T00:00:00+00:00
+Tags: neural plasticity, memory consolidation, critical period, circuit function
 
-Uses neuroimaging with ECG to assess brain-heart axis dysfunction; limited to neuroimaging without electrophysiology.
+Characterizes experience-dependent circuit plasticity with cellular resolution, relevant to neural dynamics and memory consolidation though in Drosophila model.
 
 <details>
 <summary>RSS summary</summary>
 
-Sudden unexpected death (SUD) is a major cause of mortality in neurological disorders, with poorly understood mechanisms and no reliable biomarkers. Brain-heart axis dysfunction has been implicated in SUD pathogenesis. Using the FUSdelta14 mouse model, we tested whether cerebral glucometabolism, assessed by 18F-FDG PET, reflects autonomic dysregulation and predicts SUD vulnerability. 18F-FDG PET/CT and ECG were acquired at 10 weeks of age (FUSdelta14/delta14 n=12, FUS+/delta14 n=14, FUS+/+ n=12)…
+Sensory circuits undergo experience-dependent plasticity during early-life critical periods, attuning the nervous system to levels of key environmental stimuli. During a critical period in the <i>Drosophila</i> olfactory system, we found that exposure to ethyl butyrate (EB) induces glial phagocytosis of odorant receptor Or42a-positive olfactory sensory neuron (OSN) axon terminals which terminate in the VM7 glomerulus (Leier et al., 2025). Here, we extend these findings by establishing functional…
 
 </details>
 
 ---
 
-## [Brainstem sensing of multiple body signals during food consumption](https://www.cell.com/neuron/fulltext/S0896-6273(26)00645-8?rss=yes)
+## [Hippocampal representations of alternative possibilities are flexibly generated to meet cognitive demands](https://www.cell.com/neuron/fulltext/S0896-6273(26)00674-4?rss=yes)
 *Neuron*  
 Score: **0.55**  
-Published: 2026-09-17T00:00:00+00:00
-Tags: calcium imaging, interoception, brainstem
+Published: 2026-09-25T00:00:00+00:00
+Tags: hippocampus, memory, cognitive demands, neural representation
 
-Calcium imaging of brainstem interoceptive neurons during feeding; relevant to understanding brainstem-body coupling but limited to imaging without electrophysiology.
+Investigates hippocampal neural representations and memory-related cognitive processes, touching on the user's interests in hippocampal dynamics and memory consolidation, though it does not specify electrophysiological methods used.
 
 <details>
 <summary>RSS summary</summary>
 
-Essner, Ruda, and colleagues use large-scale, multi-day calcium imaging in awake and anesthetized mice to characterize how brainstem lateral parabrachial neurons encode body signals. Largely distinct, spatially organized groups of neurons in this interoceptive hub preferentially respond to oral or post-ingestive feeding signals, locomotion, arousal, and/or feedback from cortex.
+Comrie et al. show that the hippocampus flexibly represents different alternative possibilities—including paths ahead, behind, and far away—to meet distinct cognitive demands related to decision-making and learning. Their results demonstrate that the brain can selectively sample possibilities relevant to current needs.
 
 </details>
 
 ---
 
-## [Anticipated distractor processing relies on distinct representational states before and after distractor onset in visual working memory](https://www.biorxiv.org/content/10.64898/2026.09.14.751436v1?rss=1)
+## [Attention Across Scales: From Individual Variation to Social Hierarchies and Brain Networks in Semi-Free-Ranging Macaques](https://www.biorxiv.org/content/10.64898/2026.09.21.752444v1?rss=1)
+*bioRxiv*  
+Score: **0.54**  
+Published: 2026-09-28T00:00:00+00:00
+Tags: attention, brain networks, consciousness, primate neuroscience, behavior
+
+Integrates behavioral and brain network assessments across individual and social scales in naturalistic primates, relevant to consciousness and cognition though lacks specifics on electrophysiology.
+
+<details>
+<summary>RSS summary</summary>
+
+Attention is a fundamental brain function supporting perception, decision-making, and social behavior, and its dysfunction profoundly impairs daily life. It is both dynamic and stable, varying across observations and individuals, changing across the lifespan, and being shaped by social and environmental experience. Yet capturing this complexity remains a central challenge in neuroscience. Here, we integrated longitudinal behavioral assessments of semi-free-ranging macaques living in naturalistic…
+
+</details>
+
+---
+
+## [Decoding natural scenes from patterned optogenetic responses in mouse visual cortex](https://www.biorxiv.org/content/10.64898/2026.09.21.753135v1?rss=1)
 *bioRxiv*  
 Score: **0.52**  
-Published: 2026-09-21T00:00:00+00:00
-Tags: fMRI, cognition
+Published: 2026-09-28T00:00:00+00:00
+Tags: neural computation, optogenetics, visual cortex, decoding, information theory
 
-fMRI study of working memory and distractor processing; primarily behavioral/fMRI without electrophysiology or computational modeling.
+Develops quantitative framework for evaluating how artificial cortical stimulation reproduces natural neural information, relevant to neural computation and neural data science methods.
 
 <details>
 <summary>RSS summary</summary>
 
-Successful goal-directed behavior requires limiting the impact of salient information that is irrelevant to current goals. When distractors can be anticipated, task-irrelevant information may be encoded before it appears, yet the functional role of such anticipatory coding remains unclear. Does advance coding of irrelevant content itself support protection of visual working memory (VWM), or does effective control depend on how distractor representations evolve after entering processing? Here, us…
+A central challenge in developing visual cortical prostheses is to determine how visual stimuli should be transformed into effective patterns of cortical stimulation. Although advances in stimulation technologies, including optogenetics, provide increasingly precise control over cortical activity, it remains unclear whether artificially evoked activity can reproduce the information content of naturally evoked visual representations. Here we establish a quantitative framework for evaluating visua…
 
 </details>
 
 ---
 
-## [Unsupervised alignment reveals shared but locally refined colour qualia structure from toddlerhood to adulthood](https://www.biorxiv.org/content/10.64898/2026.09.14.751604v1?rss=1)
+## [HGFX: a validated Python/JAX reproduction of the Hierarchical Gaussian Filter toolbox](https://www.biorxiv.org/content/10.64898/2026.09.22.753415v1?rss=1)
 *bioRxiv*  
-Score: **0.50**  
-Published: 2026-09-21T00:00:00+00:00
-Tags: consciousness, data science
+Score: **0.51**  
+Published: 2026-09-28T00:00:00+00:00
+Tags: computational neuroscience, methods, data science, Bayesian modeling
 
-Consciousness/perception research using optimal transport methods; computational approach to subjective experience but lacks neural recordings.
+Provides validated computational tools for Bayesian modeling of learning and uncertainty, relevant to neural data science and computational approaches for behavioral neuroscience.
 
 <details>
 <summary>RSS summary</summary>
 
-Whether subjective colour experience (e.g., experience of 'red') is shared across children and adults remains a foundational question in developmental psychology and consciousness research. To test this, we compared the relational structures of their colour experiences and identified the mapping that best preserved these structures. Using pairwise similarity judgements for 13 basic colours, we applied Gromov Wasserstein optimal transport (GWOT), an unsupervised method requiring no prespecified s…
+The Hierarchical Gaussian Filter (HGF) is a hierarchical Bayesian model of learning under uncertainty and volatility, with a widely used MATLAB implementation. We present HGFX 1.0.0, a Python/JAX toolbox whose primary objective is validated behavioral and numerical compatibility with a frozen HGF Toolbox 8.2.0 reference, while removing MATLAB as a user-runtime dependency. Reimplementation is treated as a validation problem rather than source translation: configuration semantics, parameter transf…
 
 </details>
 
 ---
 
-## [MALDI-TOF imaging mass spectrometry demonstrates sex- and age-dependent spatial changes in brain energy metabolism in response to amyloid stress using a mouse model of Alzheimers Disease](https://www.biorxiv.org/content/10.64898/2026.09.14.750669v1?rss=1)
+## [Mapping Mesolimbic Dopamine Projections to Subcortical Circuits Underlying Adaptive Behavior: A Human 7T Diffusion Tractography Atlas](https://www.biorxiv.org/content/10.64898/2026.09.22.753583v1?rss=1)
 *bioRxiv*  
-Score: **0.45**  
-Published: 2026-09-21T00:00:00+00:00
-Tags: neurochemistry, metabolism
+Score: **0.48**  
+Published: 2026-09-28T00:00:00+00:00
+Tags: human brain, tractography, structural connectivity, mesolimbic system, memory
 
-Neurochemical imaging of brain metabolism; molecular approach without neural dynamics or electrophysiology.
+Provides high-resolution structural connectivity mapping in human brain relevant to understanding subcortical circuits supporting cognition and memory. Complementary to electrophysiology for circuit-level understanding, though structural rather than functional/dynamic.
 
 <details>
 <summary>RSS summary</summary>
 
-Alzheimer's disease (AD) is the most common form of dementia, and no therapies currently exist that prevent or slow its progression. Lactate has recently emerged as both an energy substrate and a signaling molecule required for memory formation, acting in part through a novel epigenetic mechanism termed histone lactylation. Here, we used matrix-assisted laser desorption/ionization time-of-flight (MALDI-TOF) imaging mass spectrometry and immunofluorescence microscopy to spatially map lactate, glu…
+The mesolimbic dopamine system supports broad aspects of adaptive behavior including salience, learning, memory, and decision making, yet the structural organization supporting these functions remains incompletely mapped in humans. Using high-resolution 7T diffusion magnetic resonance imaging (up to N=173), we reconstructed seven bilateral ventral tegmental area (VTA)-subcortical pathways spanning direct mesolimbic projections and the hippocampus-VTA (HPC-VTA) loop regulatory circuit. Projection…
 
 </details>
 
 ---
 
-## [Modulating task-outcome value to mitigate real-world procrastination via noninvasive brain stimulation](https://elifesciences.org/articles/108241)
+## [A molecular and spinal circuit basis for the functional segregation of itch and pain](https://www.cell.com/neuron/fulltext/S0896-6273(26)00680-X?rss=yes)
+*Neuron*  
+Score: **0.48**  
+Published: 2026-09-28T00:00:00+00:00
+Tags: neural circuits, sensory processing, molecular neuroscience
+
+Identifies neural circuit subtypes with functional segregation, combining molecular and circuit-level analysis relevant to neural dynamics though focused on sensory processing without electrophysiology emphasis.
+
+<details>
+<summary>RSS summary</summary>
+
+Dorsal horn Grpr+ neurons are widely considered itch specific, but Noh et al. reveal they are also required for chronic pain. The population comprises two closely related transcriptomic subtypes: the Grpr+Tac1– subtype mediates chemical itch, and the Grpr+Tac1+ subtype serves as a critical node for mechanical hypersensitivity across inflammatory, neuropathic, and polyneuropathic injuries.
+
+</details>
+
+---
+
+## [Tau hyperphosphorylation impairs cooperative binding to microtubules and perturbs organelle trafficking in neurons](https://elifesciences.org/articles/110011)
 *eLife*  
-Score: **0.45**  
-Published: 2026-09-16T00:00:00+00:00
-Tags: cognition, clinical application
+Score: **0.42**  
+Published: 2026-09-28T00:00:00+00:00
+Tags: neuronal dynamics, tau pathology, computational modeling
 
-Brain stimulation intervention trial for procrastination; behavioral outcome focus without neural recording or mechanistic electrophysiology.
+Examines how disease-related perturbations affect neuronal dynamics and function at the cellular level, tangentially relevant to neural computation but lacks electrophysiology.
 
 <details>
 <summary>RSS summary</summary>
 
-Procrastination is a prevalent behavioral problem associated with individual health and societal productivity. A leading model posits that procrastination reflects an imbalance between task aversiveness and the pursuit of positive task outcomes, yet this theoretical framework has neither been validated in real-world settings nor effectively applied to guide interventions. To address this gap, we conducted a double-blind, randomized, sham-controlled trial. Adults with chronic procrastination rece…
+Tau, a neuronal microtubule-associated protein (MAP), organizes the axonal cytoskeleton, and regulates intracellular transport. Tau hyperphosphorylation is linked to neurodegeneration in tauopathies, including Alzheimer’s disease. Tau binds microtubules cooperatively to form cohesive envelopes, which are thought to control access to the microtubule lattice and regulate the activity of motor proteins and other MAPs. However, how disease-related perturbations affect tau dynamics and its function a…
 
 </details>
 
 ---
 
-## [A bipolar disorder-associated ultra-rare AKAP11 protein-truncating variant attenuates stimulus-dependent PKA activation and induces anxiety- and depression-related behaviors in mice](https://www.biorxiv.org/content/10.64898/2026.09.19.752887v1?rss=1)
+## [Reciprocal control of the stomach and intestine by viscerosensory neurons in caudal brainstem](https://www.biorxiv.org/content/10.64898/2026.09.21.753299v1?rss=1)
 *bioRxiv*  
 Score: **0.40**  
-Published: 2026-09-21T00:00:00+00:00
-Tags: psychiatry, genetics
+Published: 2026-09-28T00:00:00+00:00
+Tags: neural circuits, brainstem, calcium imaging, neural dynamics
 
-Psychiatric genetics with behavioral phenotyping; lacks neural dynamics, electrophysiology, or direct neural circuit measurements.
+Combines behavioral monitoring with calcium imaging to identify neural populations controlling gut dynamics, relevant to neural dynamics but limited by calcium imaging without electrophysiology.
 
 <details>
 <summary>RSS summary</summary>
 
-Rare genetic variants associated with psychiatric disorders are thought to have larger individual effect sizes and direct biological roles, offering a unique opportunity for understanding causal relationships between genetic architecture and disease phenotypes. A recent whole-exome sequencing meta-analysis identified an increased burden of ultra-rare protein-truncating variants (PTVs) in AKAP11 in patients with bipolar disorder and schizophrenia. AKAP11 encodes an A-kinase anchoring protein that…
+Digestion requires precisely timed transit of food through the gastrointestinal tract. Here we show that emptying of food from the stomach occurs in discrete pulses, separated by pauses that allow the proximal duodenum to clear before the next bolus arrives. By combining X-ray fluoroscopy of the gut with calcium imaging of the brainstem, we identify a population of neurons defined by expression of neuropeptide FF (NPFF) that tracks these duodenal dynamics. Stimulation of NPFF neurons induces a c…
 
 </details>
 
 ---
 
-## [An applicable and efficient retrograde monosynaptic circuit mapping tool for larval zebrafish](https://elifesciences.org/articles/100880)
-*eLife*  
-Score: **0.40**  
-Published: 2026-09-18T00:00:00+00:00
-Tags: circuit mapping, methods, cross-species
-
-Circuit tracing method in larval zebrafish; anatomical connectivity approach without electrophysiology or neural dynamics.
-
-<details>
-<summary>RSS summary</summary>
-
-The larval zebrafish is a vertebrate model for in vivo monitoring and manipulation of whole-brain neuronal activity. Tracing its neural circuits remains challenging. Here, we report an applicable methodology tailored for larval zebrafish to achieve efficient retrograde trans-monosynaptic tracing from genetically defined neurons via EnvA-pseudotyped glycoprotein-deleted rabies viruses. By combinatorially optimizing multiple factors involved, we identified the CVS strain trans-complemented with ad…
-
-</details>
-
----
-
-## [Rhythmic Characterisation of Extreme Circadian Preferences in Everyday Life](https://onlinelibrary.wiley.com/doi/10.1111/jsr.70461?af=R)
-*Journal of Sleep Research*  
+## [Different patterns of eye-specific input are relayed to overlapping populations in the mouse superior colliculus](https://www.biorxiv.org/content/10.64898/2026.09.22.753580v1?rss=1)
+*bioRxiv*  
 Score: **0.38**  
-Published: 2026-09-17T09:31:37+00:00
-Tags: sleep, rhythms
+Published: 2026-09-28T00:00:00+00:00
+Tags: neural circuits, sensory processing, mouse, population coding
 
-Circadian rhythm study; abstract-only with no neural data specification.
+Characterizes neural processing and population responses in mouse superior colliculus but lacks explicit electrophysiological methods or neural dynamics emphasis. Cross-species sensory circuits have limited direct relevance to sleep/memory consolidation focus.
 
 <details>
 <summary>RSS summary</summary>
 
-Journal of Sleep Research, EarlyView.
+The mouse superior colliculus (SC) regulates critical behaviors such as prey capture and visual threat avoidance, each of which depend on binocular visual processing. In contrast to our previous understanding, recent work has demonstrated widespread and diverse binocular interactions in the mouse SC. The SC receives direct input from contralaterally and ipsilaterally projecting retinal ganglion cells (contra- and ipsi-RGCs), but the ways in which eye-specific information is filtered in the SC re…
 
 </details>
 
 ---
 
-## [Correlates of Multidimensional Sleep Profiles of Young Children](https://onlinelibrary.wiley.com/doi/10.1111/jsr.70454?af=R)
+## [Discovery of the Honeycomb Synapse in Spinal Motor Circuits](https://www.biorxiv.org/content/10.64898/2026.09.22.753133v1?rss=1)
+*bioRxiv*  
+Score: **0.38**  
+Published: 2026-09-28T00:00:00+00:00
+Tags: synaptic structure, motor circuits, neural circuits
+
+Characterizes novel synaptic morphology in motor circuits with structural and molecular analysis, relevant to circuit organization but lacks neural dynamics or electrophysiology.
+
+<details>
+<summary>RSS summary</summary>
+
+The structural and molecular diversity of synapses in the nervous system contributes to the specialisation of neural circuits underlying diverse behaviours. We have discovered a morphologically distinct postsynaptic specialisation in the mammalian spinal cord. We have named this the Honeycomb Synapse based on its elaborate postsynaptic nanostructure, comprising rings formed of ~6 scaffolding protein domains that create multiple perforations throughout the large postsynaptic domain. Analysis of t…
+
+</details>
+
+---
+
+## [Imaging mitral/tufted glomeruli in the mouse olfactory bulb using the genetically encoded voltage indicator ArcLight](https://www.biorxiv.org/content/10.64898/2026.09.22.753601v1?rss=1)
+*bioRxiv*  
+Score: **0.35**  
+Published: 2026-09-28T00:00:00+00:00
+Tags: voltage imaging, olfactory bulb, methods, electrophysiology
+
+Uses voltage imaging in olfactory circuits, methodologically relevant to electrophysiology but limited by 2-photon imaging without traditional electrophysiology methods.
+
+<details>
+<summary>RSS summary</summary>
+
+In the mammalian olfactory bulb, each olfactory receptor neuron type maps to receptor-specific channels called glomeruli. These input axons interact with the apical dendrites of mitral/tufted cells, which are projection neurons that send axons to the olfactory cortex. Therefore, each glomerulus reflects the input-output relationship for a different olfactory receptor type, which is transformed by a complex synaptic network. While prior 2-photon Ca2+ imaging experiments have shown that the glomer…
+
+</details>
+
+---
+
+## [The Seattle Trauma and Autonomic Related Sleep Symptoms (STARSS) Scale: A Novel Self‐Report Measure of Sleep Disturbances With Nightmares and Autonomic Symptoms Following Trauma](https://onlinelibrary.wiley.com/doi/10.1111/jsr.70439?af=R)
 *Journal of Sleep Research*  
 Score: **0.35**  
-Published: 2026-09-21T03:50:45+00:00
-Tags: sleep, development
+Published: 2026-09-25T00:54:50+00:00
+Tags: sleep, autonomic nervous system, trauma
 
-Sleep study in children; abstract-only with no neural measurement details provided.
-
-<details>
-<summary>RSS summary</summary>
-
-Journal of Sleep Research, EarlyView.
-
-</details>
-
----
-
-## [Insomnia Symptoms Co‐Fluctuate With Depression and Posttraumatic Stress Disorder Symptoms From Pre‐ To 10 Years Post‐Deployment in Military Personnel](https://onlinelibrary.wiley.com/doi/10.1111/jsr.70450?af=R)
-*Journal of Sleep Research*  
-Score: **0.35**  
-Published: 2026-09-17T04:13:01+00:00
-Tags: sleep, psychiatry
-
-Clinical sleep study in military populations; abstract-only without neural measurements.
+Addresses sleep disturbances and autonomic symptoms, topics within the user's sleep research interests, but is primarily a self-report scale without neural data or physiological signal analysis.
 
 <details>
 <summary>RSS summary</summary>
@@ -517,21 +381,4 @@ Journal of Sleep Research, EarlyView.
 
 ---
 
-## [Avoiding common failures in AI for health and medicine](https://www.cell.com/cell/fulltext/S0092-8674(26)00823-8?rss=yes)
-*Cell*  
-Score: **0.35**  
-Published: 2026-09-17T00:00:00+00:00
-Tags: methods, data science
-
-AI/ML reliability in healthcare; broad clinical focus without neuroscience specificity.
-
-<details>
-<summary>RSS summary</summary>
-
-Salaudeen et al. review common reliability failures in predictive and generative AI for healthcare, including erroneous model outputs, clinically unjustified performance differences, and deployment-time degradation. They examine why existing technical solutions fall short and argue for lifecycle-aware evaluation, continuous monitoring, and institutional governance.
-
-</details>
-
----
-
-_Model claude-haiku-4-5 · 13,842 in + 8,791 out tokens · est. cost this run: $0.06_
+_Model claude-haiku-4-5 · 45,561 in + 16,116 out tokens · est. cost this run: $0.13_
